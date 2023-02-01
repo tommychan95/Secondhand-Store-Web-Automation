@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RGS002 - User want to create account with registered email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cf2d4888-7fcf-44be-9545-c20592da8e31</testCaseGuid>
+</TestCaseEntity>
