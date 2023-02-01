@@ -17,3 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.verifyElementVisible(findTestObject('Page_Login/btn_register'))
+
+WebUI.verifyElementVisible(findTestObject('Page_Login/login_btn'))
+
+WebUI.verifyElementVisible(findTestObject('Page_Login/login_input_email'))
+
+WebUI.verifyElementVisible(findTestObject('Page_Login/login_input_password'))
+

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Click</name>
+   <name>Input email</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>106a1cdc-3a4b-4c71-9744-b373697723db</testCaseGuid>
+   <testCaseGuid>2cd163dd-c902-404f-a707-bfe283e0fa87</testCaseGuid>
 </TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LG004 - User want to login using unverified email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>528cb488-af86-47a2-bcdd-49b6e99cc92c</testCaseGuid>
+</TestCaseEntity>
