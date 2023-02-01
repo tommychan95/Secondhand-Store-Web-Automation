@@ -17,13 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Pages/User Login/Navigate to login page'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.verifyElementVisible(findTestObject('Page_Login/btn_register'))
 
 WebUI.verifyElementVisible(findTestObject('Page_Login/login_btn'))
-
-WebUI.verifyElementVisible(findTestObject('Page_Login/login_class_error'))
 
 WebUI.verifyElementVisible(findTestObject('Page_Login/login_input_email'))
 

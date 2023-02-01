@@ -62,7 +62,7 @@ class Login {
 
 	@When("User click button Login")
 	public void user_click_button_Login() {
-		WebUI.callTestCase(findTestCase('Pages/User Login/Click Login'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Pages/User Login/Click Button Login'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("User navigate to homepage")
@@ -74,8 +74,5 @@ class Login {
 	@Then("Text warning {string} show up")
 	public void text_warning_show_up(String errorText) {
 		WebUI.verifyMatch(errorText, errorText, false)
-//		WebUI.verifyMatch('Password anda salah!', 'Password anda salah!', false)
-//		WebUI.verifyMatch('Silahkan cek email anda untuk melakukan verifikasi terlebih dahulu', 'Silahkan cek email anda untuk melakukan verifikasi terlebih dahulu', false)
-		
 	}
 }

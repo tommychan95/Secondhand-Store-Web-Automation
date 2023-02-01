@@ -19,11 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Pages/User Login/Navigate to login page'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Pages/User Login/Verify Content'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('Pages/User Login/Input email'), [('email') : 'irmapujiandranis@gmail.com'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/User Login/Input password'), [('password') : 'hdhd'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/User Login/Click Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/User Login/Click Button Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyMatch('Akun tidak ditemukan', 'Akun tidak ditemukan', false)
 

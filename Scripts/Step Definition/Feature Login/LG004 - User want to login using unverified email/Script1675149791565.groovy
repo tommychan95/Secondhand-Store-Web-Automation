@@ -19,11 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Pages/User Login/Navigate to login page'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Pages/User Login/Verify Content'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('Pages/User Login/Input email'), [('email') : 'alt.nm-2yimtbe@yopmail.com'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/User Login/Input password'), [('password') : 'admin123'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/User Login/Click Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/User Login/Click Button Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyMatch('Silahkan cek email anda untuk melakukan verifikasi terlebih dahulu', 'Silahkan cek email anda untuk melakukan verifikasi terlebih dahulu', 
     false)
