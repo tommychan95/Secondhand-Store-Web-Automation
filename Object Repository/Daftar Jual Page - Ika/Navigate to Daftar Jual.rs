@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;navbarText&quot;)/ul[@class=&quot;navbar-nav me-auto mb-2 mb-lg-0&quot;]/li[1]/a[@class=&quot;nav-link&quot;][count(. | //*[@href = '/daftarjual']) = count(//*[@href = '/daftarjual'])]</value>
+         <value>id(&quot;navbarText&quot;)/ul[@class=&quot;navbar-nav me-auto mb-2 mb-lg-0&quot;]/li[1]/a[@class=&quot;nav-link&quot;]/svg[@class=&quot;svg-inline--fa fa-list fa-lg&quot;][count(. | //*[@class = 'svg-inline--fa fa-list fa-lg ']) = count(//*[@class = 'svg-inline--fa fa-list fa-lg '])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,30 +18,30 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>375e1a18-ebec-45d7-ab36-0df14b542046</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>nav-link</value>
-      <webElementGuid>96976afb-53df-4819-bde8-48b74f80f790</webElementGuid>
+      <webElementGuid>80a26a5d-8a95-46e8-96bc-7d0c2ea15be5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>svg-inline--fa fa-list fa-lg </value>
+      <webElementGuid>2cc6fb26-4bb4-421d-9d09-4d3ec17dc42a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/daftarjual</value>
-      <webElementGuid>88feefd5-917d-4f4f-92f6-ae093eefe3b3</webElementGuid>
+      <webElementGuid>b42464a5-d108-4388-9ca9-ca2600212698</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;navbarText&quot;)/ul[@class=&quot;navbar-nav me-auto mb-2 mb-lg-0&quot;]/li[1]/a[@class=&quot;nav-link&quot;]</value>
-      <webElementGuid>ee66cbcf-284e-48c4-b689-d1fb10b7872e</webElementGuid>
+      <value>id(&quot;navbarText&quot;)/ul[@class=&quot;navbar-nav me-auto mb-2 mb-lg-0&quot;]/li[1]/a[@class=&quot;nav-link&quot;]/svg[@class=&quot;svg-inline--fa fa-list fa-lg&quot;]</value>
+      <webElementGuid>4da76859-e7d6-48b0-a2b6-ea6f56143c38</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_nameproduct</name>
+   <tag></tag>
+   <elementGuidId>e2c5d479-79cd-49dc-b393-4c0806243ac1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;container&quot;]/div[@class=&quot;row mt-5&quot;]/div[@class=&quot;col-md-6&quot;]/div[@class=&quot;row mt-3&quot;]/div[@class=&quot;col-md-10&quot;]/h5[@class=&quot;card-title&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h5</value>
+      <webElementGuid>674088e1-93f0-4672-a5e4-9ee601ab1a4f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-title</value>
+      <webElementGuid>c049568e-5945-464b-9eee-2a1f75fcf66f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;container&quot;]/div[@class=&quot;row mt-5&quot;]/div[@class=&quot;col-md-6&quot;]/div[@class=&quot;row mt-3&quot;]/div[@class=&quot;col-md-10&quot;]/h5[@class=&quot;card-title&quot;]</value>
+      <webElementGuid>0c0e4493-946b-48b4-8b56-49885bc69833</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
