@@ -52,12 +52,12 @@ class Notification {
 
 	@When("User input username {string}")
 	public void user_input_username(String Email) {
-		WebUI.setText(findTestObject('Page_Login/login_input_email'), Email)
+		WebUI.sendKeys(findTestObject('Page_Login/login_input_email'), Email)
 	}
 
 	@When("User input passwords {string}")
 	public void user_input_passwords(String Password) {
-		WebUI.setText(findTestObject('Page_Login/login_input_password'), Password)
+		WebUI.sendKeys(findTestObject('Page_Login/login_input_password'), Password)
 	}
 
 	@When("User click Login Button")
