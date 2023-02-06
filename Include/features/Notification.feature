@@ -7,4 +7,5 @@ Feature: Notification
     When User input username "tommy.chaniago42@gmail.com"
     And User input passwords "Tc@$Ec0ndH@nd955!"
     And User click Login Button 
-    Then User click Notification Button 
+    And User click Notification Button
+    Then Notification details displayed 
