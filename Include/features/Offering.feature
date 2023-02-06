@@ -10,4 +10,5 @@ Feature: Offering
     And Buyer click on PRODUCT Image
     And Buyer click on INTERESTED Button
     And Buyer input Offering Price "2000000"  
-    Then Buyer click SEND Button 
+    And Buyer click SEND Button
+    Then Message Harga Tawar Berhasil dikirim displayed 
