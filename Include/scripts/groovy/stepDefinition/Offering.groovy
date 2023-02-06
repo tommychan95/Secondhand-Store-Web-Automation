@@ -80,8 +80,13 @@ class Offering {
 		WebUI.sendKeys(findTestObject('Page_Offering/input_Harga_Tawar'), Harga_Tawar)
 	}
 
-	@Then("Buyer click SEND Button")
+	@And("Buyer click SEND Button")
 	public void buyer_click_SEND_Button() {
 		WebUI.click(findTestObject('Page_Offering/button_Send'))
+	}
+	
+	@Then("Message Harga Tawar Berhasil dikirim displayed")
+	public void message_Harga_Tawar_Berhasil_dikirim_displayed() {
+		WebUI.waitForElementVisible(findTestObject('Page_Offering/message_Harga_tawar_berhasil'), 2)
 	}
 }
