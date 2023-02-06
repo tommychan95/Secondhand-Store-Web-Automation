@@ -65,8 +65,13 @@ class Notification {
 		WebUI.click(findTestObject('Page_Login/login_btn'))
 	}
 
-	@Then("User click Notification Button")
+	@When("User click Notification Button")
 	public void user_click_Notification_Button() {
-		WebUI.click(findTestObject('Page_Notification/button_notification'))
+		WebUI.callTestCase(findTestCase('Pages/Notification/Click Notification Icon'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@Then("Notification details displayed")
+	public void notification_details_displayed() {
+		WebUI.verifyElementVisible(findTestObject('Page_Notification/div_Penawaran_Produk'))
 	}
 }
