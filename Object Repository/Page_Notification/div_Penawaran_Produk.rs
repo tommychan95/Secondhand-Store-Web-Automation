@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Penawaran_Produk</name>
+   <tag></tag>
+   <elementGuidId>ec0ceb4b-50ff-4013-91ec-c60d640cf1b0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='navbarText']/ul/li[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.dropdown-menu.dropdown-menu-right.p-2.show</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f0bff175-1849-4c97-8240-42f5130b94c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-menu dropdown-menu-right p-2 show</value>
+      <webElementGuid>f329f6c8-dafa-4cdd-9aaa-09c13ceaad9c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-labelledby</name>
+      <type>Main</type>
+      <value>notification</value>
+      <webElementGuid>2aba029b-477f-4c15-ac97-7df2eff3e898</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Penawaran Produk20 Dec, 06:54turtleboyRp 50.000,00Ditawar Rp 45.000,00Penawaran Produk04 Feb, 12:35Sepeda ListrikRp 2.300.000,00Ditawar Rp 2.000.000,00Penawaran Produk31 Jan, 09:13Patung Motor OrangRp 150.000,00Ditawar Rp 145.000,00Penawaran Produk30 Jan, 05:21Basic OuterRp 200.000,00Ditawar Rp 150.000,00Penawaran Produk29 Jan, 12:47Produk Demo indraRp 123.456,00Ditawar Rp 120.000,00Penawaran Produk03 Feb, 12:36Kamera Sony a6300Rp 9.000.000,00Ditawar Rp 8.500.000,00Penawaran Produk18 Jan, 08:22Lampu Doraemon 101Rp 750.000,00Ditawar Rp 700.000,00Penawaran Produk29 Jan, 10:47Shampo DoveRp 123.123,00Ditawar Rp 120.000,00Penawaran Produk24 Jan, 10:54Buah EnakRp 450.000,00Ditawar Rp 400.000,00Penawaran Produk06 Feb, 11:27BlezerRp 10.000,00Ditawar Rp 9.000,00Penawaran Produk25 Jan, 03:58Mobil PorscheRp 1.234.567.890,00Ditawar Rp 121.500.000,00Penawaran Produk26 Jan, 11:38Teh PucukRp 1.500.000,00Ditawar Rp 1.450.000,00Penawaran Produk04 Feb, 06:18fdfdsRp 2.000.000,00Ditawar Rp 1.500.000,00Penawaran Produk Ditolak04 Feb, 07:04fdfdsRp 2.000.000,00Ditawar Rp 1.500.000,00Tawaran kamu ditolak penjualPenawaran Produk18 Jan, 08:55road bikeRp 10.000.000,00Ditawar Rp 9.000.000,00Penawaran Produk06 Feb, 08:06Parfum HOSE BLUERp 300.000,00Ditawar Rp 250.000,00Penawaran Produk06 Feb, 07:50Parfum HOSE BLUERp 300.000,00Ditawar Rp 200.000,00Penawaran Produk Ditolak06 Feb, 08:09Parfum HOSE BLUERp 300.000,00Ditawar Rp 200.000,00Penawaran Produk04 Feb, 06:11Parfum HOSE BLUERp 300.000,00Ditawar Rp 200.000,00Penawaran Produk Ditolak06 Feb, 04:08Parfum HOSE BLUERp 300.000,00Ditawar Rp 200.000,00Penawaran Produk06 Feb, 07:18Parfum HOSE BLUERp 300.000,00Ditawar Rp 250.000,00Penawaran Produk Ditolak06 Feb, 07:22Parfum HOSE BLUERp 300.000,00Ditawar Rp 250.000,00Penawaran Produk06 Feb, 06:40Parfum HOSE BLUERp 300.000,00Ditawar Rp 200.000,00Penawaran Produk Ditolak06 Feb, 06:54Parfum HOSE BLUERp 300.000,00Ditawar Rp 200.000,00Penawaran Produk31 Jan, 02:14Parfum HOSE BLUERp 300.000,00Ditawar Rp 250.000,00Penawaran Produk Ditolak31 Jan, 11:09Parfum HOSE BLUERp 300.000,00Ditawar Rp 250.000,00Penawaran Produk26 Jan, 07:28HP bekasRp 1.500.000,00Ditawar Rp 1.450.000,00Penawaran Produk Ditolak31 Jan, 11:04HP bekasRp 1.500.000,00Ditawar Rp 1.450.000,00Tawaran kamu ditolak penjualPenawaran Produk29 Nov, 05:32Omron TesterRp 345.000,00Ditawar Rp 340.000,00Penawaran Produk Diterima29 Nov, 05:39Omron TesterRp 345.000,00Ditawar Rp 340.000,00Kamu akan segera dihubungi penjual via whatsappPenawaran Produk Ditolak29 Nov, 05:48Omron TesterRp 345.000,00Ditawar Rp 340.000,00Tawaran kamu ditolak penjualPenawaran Produk14 Nov, 04:31Omron TesterRp 345.000,00Ditawar Rp 345.000,00Penawaran Produk Ditolak14 Nov, 04:38Omron TesterRp 345.000,00Ditawar Rp 345.000,00Tawaran kamu ditolak penjualPenawaran Produk04 Feb, 06:57Hp Samsung A52Rp 2.000.000,00Ditawar Rp 1.500.000,00Penawaran Produk26 Jan, 07:29testRp 12.121,00Ditawar Rp 11.000,00Penawaran Produk Ditolak31 Jan, 08:52testRp 12.121,00Ditawar Rp 11.000,00Tawaran kamu ditolak penjualPenawaran Produk06 Feb, 06:51Samsung Galaxy A8Rp 8.750.000,00Ditawar Rp 8.500.000,00Penawaran Produk Ditolak06 Feb, 07:55Samsung Galaxy A8Rp 8.750.000,00Ditawar Rp 8.500.000,00Penawaran Produk06 Feb, 06:39Samsung Galaxy A8Rp 8.750.000,00Ditawar Rp 8.500.000,00Penawaran Produk Ditolak06 Feb, 06:42Samsung Galaxy A8Rp 8.750.000,00Ditawar Rp 8.500.000,00Penawaran Produk06 Feb, 04:58Samsung Galaxy A8Rp 8.750.000,00Ditawar Rp 8.000.000,00Penawaran Produk Ditolak06 Feb, 06:36Samsung Galaxy A8Rp 8.750.000,00Ditawar Rp 8.000.000,00Penawaran Produk31 Jan, 02:17Samsung Galaxy A8Rp 8.750.000,00Ditawar Rp 8.500.000,00Penawaran Produk Ditolak04 Feb, 05:35Samsung Galaxy A8Rp 8.750.000,00Ditawar Rp 8.500.000,00Penawaran Produk07 Nov, 03:51Baju BatikRp 100.000,00Ditawar Rp 85.000,00Penawaran Produk Diterima07 Nov, 04:27Baju BatikRp 100.000,00Ditawar Rp 85.000,00Kamu akan segera dihubungi penjual via whatsappPenawaran Produk Berhasil Disepakati07 Nov, 04:50Baju BatikRp 100.000,00Ditawar Rp 85.000,00Terima Kasih telah membeli produk iniPenawaran Produk07 Nov, 03:51Baju BatikRp 100.000,00Ditawar Rp 85.000,00Penawaran Produk Ditolak07 Nov, 04:29Baju BatikRp 100.000,00Ditawar Rp 85.000,00Tawaran kamu ditolak penjualPenawaran Produk06 Feb, 03:50Hand Sanitizer Spray SoujiRp 15.000,00Ditawar Rp 10.000,00Penawaran Produk Ditolak06 Feb, 06:30Hand Sanitizer Spray SoujiRp 15.000,00Ditawar Rp 10.000,00</value>
+      <webElementGuid>abc7f73d-0208-416c-a351-bb28d38ade7d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navbarText&quot;)/ul[@class=&quot;navbar-nav me-auto mb-2 mb-lg-0&quot;]/li[@class=&quot;dropdown show&quot;]/div[@class=&quot;dropdown-menu dropdown-menu-right p-2 show&quot;]</value>
+      <webElementGuid>f8d65be6-7e1e-44dc-a932-a69983bfc22e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='navbarText']/ul/li[2]/div</value>
+      <webElementGuid>babb3eb3-b5cf-4d4a-87b0-0cf95f534498</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/div</value>
+      <webElementGuid>0e285eac-4a6d-4e8a-b001-b110c53ad9ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Penawaran Produk20 Dec, 06:54turtleboyRp 50.000,00Ditawar Rp 45.000,00Penawaran Produk04 Feb, 12:35Sepeda ListrikRp 2.300.000,00Ditawar Rp 2.000.000,00Penawaran Produk31 Jan, 09:13Patung Motor OrangRp 150.000,00Ditawar Rp 145.000,00Penawaran Produk30 Jan, 05:21Basic OuterRp 200.000,00Ditawar Rp 150.000,00Penawaran Produk29 Jan, 12:47Produk Demo indraRp 123.456,00Ditawar Rp 120.000,00Penawaran Produk03 Feb, 12:36Kamera Sony a6300Rp 9.000.000,00Ditawar Rp 8.500.000,00Penawaran Produk18 Jan, 08:22Lampu Doraemon 101Rp 750.000,00Ditawar Rp 700.000,00Penawaran Produk29 Jan, 10:47Shampo DoveRp 123.123,00Ditawar Rp 120.000,00Penawaran Produk24 Jan, 10:54Buah EnakRp 450.000,00Ditawar Rp 400.000,00Penawaran Produk06 Feb, 11:27BlezerRp 10.000,00Ditawar Rp 9.000,00Penawaran Produk25 Jan, 03:58Mobil PorscheRp 1.234.567.890,00Ditawar Rp 121.500.000,00Penawaran Produk26 Jan, 11:38Teh PucukRp 1.500.000,00Ditawar Rp 1.450.000,00Penawaran Produk04 Feb, 06:18fdfdsRp 2.000.000,00Ditawar Rp 1.500.000,00Penawaran Produk Ditolak04 Feb, 07:04fdfdsRp 2.000.000,00Ditawar Rp 1.500.000,00Tawaran kamu ditolak penjualPenawaran Produk18 Jan, 08:55road bikeRp 10.000.000,00Ditawar Rp 9.000.000,00Penawaran Produk06 Feb, 08:06Parfum HOSE BLUERp 300.000,00Ditawar Rp 250.000,00Penawaran Produk06 Feb, 07:50Parfum HOSE BLUERp 300.000,00Ditawar Rp 200.000,00Penawaran Produk Ditolak06 Feb, 08:09Parfum HOSE BLUERp 300.000,00Ditawar Rp 200.000,00Penawaran Produk04 Feb, 06:11Parfum HOSE BLUERp 300.000,00Ditawar Rp 200.000,00Penawaran Produk Ditolak06 Feb, 04:08Parfum HOSE BLUERp 300.000,00Ditawar Rp 200.000,00Penawaran Produk06 Feb, 07:18Parfum HOSE BLUERp 300.000,00Ditawar Rp 250.000,00Penawaran Produk Ditolak06 Feb, 07:22Parfum HOSE BLUERp 300.000,00Ditawar Rp 250.000,00Penawaran Produk06 Feb, 06:40Parfum HOSE BLUERp 300.000,00Ditawar Rp 200.000,00Penawaran Produk Ditolak06 Feb, 06:54Parfum HOSE BLUERp 300.000,00Ditawar Rp 200.000,00Penawaran Produk31 Jan, 02:14Parfum HOSE BLUERp 300.000,00Ditawar Rp 250.000,00Penawaran Produk Ditolak31 Jan, 11:09Parfum HOSE BLUERp 300.000,00Ditawar Rp 250.000,00Penawaran Produk26 Jan, 07:28HP bekasRp 1.500.000,00Ditawar Rp 1.450.000,00Penawaran Produk Ditolak31 Jan, 11:04HP bekasRp 1.500.000,00Ditawar Rp 1.450.000,00Tawaran kamu ditolak penjualPenawaran Produk29 Nov, 05:32Omron TesterRp 345.000,00Ditawar Rp 340.000,00Penawaran Produk Diterima29 Nov, 05:39Omron TesterRp 345.000,00Ditawar Rp 340.000,00Kamu akan segera dihubungi penjual via whatsappPenawaran Produk Ditolak29 Nov, 05:48Omron TesterRp 345.000,00Ditawar Rp 340.000,00Tawaran kamu ditolak penjualPenawaran Produk14 Nov, 04:31Omron TesterRp 345.000,00Ditawar Rp 345.000,00Penawaran Produk Ditolak14 Nov, 04:38Omron TesterRp 345.000,00Ditawar Rp 345.000,00Tawaran kamu ditolak penjualPenawaran Produk04 Feb, 06:57Hp Samsung A52Rp 2.000.000,00Ditawar Rp 1.500.000,00Penawaran Produk26 Jan, 07:29testRp 12.121,00Ditawar Rp 11.000,00Penawaran Produk Ditolak31 Jan, 08:52testRp 12.121,00Ditawar Rp 11.000,00Tawaran kamu ditolak penjualPenawaran Produk06 Feb, 06:51Samsung Galaxy A8Rp 8.750.000,00Ditawar Rp 8.500.000,00Penawaran Produk Ditolak06 Feb, 07:55Samsung Galaxy A8Rp 8.750.000,00Ditawar Rp 8.500.000,00Penawaran Produk06 Feb, 06:39Samsung Galaxy A8Rp 8.750.000,00Ditawar Rp 8.500.000,00Penawaran Produk Ditolak06 Feb, 06:42Samsung Galaxy A8Rp 8.750.000,00Ditawar Rp 8.500.000,00Penawaran Produk06 Feb, 04:58Samsung Galaxy A8Rp 8.750.000,00Ditawar Rp 8.000.000,00Penawaran Produk Ditolak06 Feb, 06:36Samsung Galaxy A8Rp 8.750.000,00Ditawar Rp 8.000.000,00Penawaran Produk31 Jan, 02:17Samsung Galaxy A8Rp 8.750.000,00Ditawar Rp 8.500.000,00Penawaran Produk Ditolak04 Feb, 05:35Samsung Galaxy A8Rp 8.750.000,00Ditawar Rp 8.500.000,00Penawaran Produk07 Nov, 03:51Baju BatikRp 100.000,00Ditawar Rp 85.000,00Penawaran Produk Diterima07 Nov, 04:27Baju BatikRp 100.000,00Ditawar Rp 85.000,00Kamu akan segera dihubungi penjual via whatsappPenawaran Produk Berhasil Disepakati07 Nov, 04:50Baju BatikRp 100.000,00Ditawar Rp 85.000,00Terima Kasih telah membeli produk iniPenawaran Produk07 Nov, 03:51Baju BatikRp 100.000,00Ditawar Rp 85.000,00Penawaran Produk Ditolak07 Nov, 04:29Baju BatikRp 100.000,00Ditawar Rp 85.000,00Tawaran kamu ditolak penjualPenawaran Produk06 Feb, 03:50Hand Sanitizer Spray SoujiRp 15.000,00Ditawar Rp 10.000,00Penawaran Produk Ditolak06 Feb, 06:30Hand Sanitizer Spray SoujiRp 15.000,00Ditawar Rp 10.000,00' or . = 'Penawaran Produk20 Dec, 06:54turtleboyRp 50.000,00Ditawar Rp 45.000,00Penawaran Produk04 Feb, 12:35Sepeda ListrikRp 2.300.000,00Ditawar Rp 2.000.000,00Penawaran Produk31 Jan, 09:13Patung Motor OrangRp 150.000,00Ditawar Rp 145.000,00Penawaran Produk30 Jan, 05:21Basic OuterRp 200.000,00Ditawar Rp 150.000,00Penawaran Produk29 Jan, 12:47Produk Demo indraRp 123.456,00Ditawar Rp 120.000,00Penawaran Produk03 Feb, 12:36Kamera Sony a6300Rp 9.000.000,00Ditawar Rp 8.500.000,00Penawaran Produk18 Jan, 08:22Lampu Doraemon 101Rp 750.000,00Ditawar Rp 700.000,00Penawaran Produk29 Jan, 10:47Shampo DoveRp 123.123,00Ditawar Rp 120.000,00Penawaran Produk24 Jan, 10:54Buah EnakRp 450.000,00Ditawar Rp 400.000,00Penawaran Produk06 Feb, 11:27BlezerRp 10.000,00Ditawar Rp 9.000,00Penawaran Produk25 Jan, 03:58Mobil PorscheRp 1.234.567.890,00Ditawar Rp 121.500.000,00Penawaran Produk26 Jan, 11:38Teh PucukRp 1.500.000,00Ditawar Rp 1.450.000,00Penawaran Produk04 Feb, 06:18fdfdsRp 2.000.000,00Ditawar Rp 1.500.000,00Penawaran Produk Ditolak04 Feb, 07:04fdfdsRp 2.000.000,00Ditawar Rp 1.500.000,00Tawaran kamu ditolak penjualPenawaran Produk18 Jan, 08:55road bikeRp 10.000.000,00Ditawar Rp 9.000.000,00Penawaran Produk06 Feb, 08:06Parfum HOSE BLUERp 300.000,00Ditawar Rp 250.000,00Penawaran Produk06 Feb, 07:50Parfum HOSE BLUERp 300.000,00Ditawar Rp 200.000,00Penawaran Produk Ditolak06 Feb, 08:09Parfum HOSE BLUERp 300.000,00Ditawar Rp 200.000,00Penawaran Produk04 Feb, 06:11Parfum HOSE BLUERp 300.000,00Ditawar Rp 200.000,00Penawaran Produk Ditolak06 Feb, 04:08Parfum HOSE BLUERp 300.000,00Ditawar Rp 200.000,00Penawaran Produk06 Feb, 07:18Parfum HOSE BLUERp 300.000,00Ditawar Rp 250.000,00Penawaran Produk Ditolak06 Feb, 07:22Parfum HOSE BLUERp 300.000,00Ditawar Rp 250.000,00Penawaran Produk06 Feb, 06:40Parfum HOSE BLUERp 300.000,00Ditawar Rp 200.000,00Penawaran Produk Ditolak06 Feb, 06:54Parfum HOSE BLUERp 300.000,00Ditawar Rp 200.000,00Penawaran Produk31 Jan, 02:14Parfum HOSE BLUERp 300.000,00Ditawar Rp 250.000,00Penawaran Produk Ditolak31 Jan, 11:09Parfum HOSE BLUERp 300.000,00Ditawar Rp 250.000,00Penawaran Produk26 Jan, 07:28HP bekasRp 1.500.000,00Ditawar Rp 1.450.000,00Penawaran Produk Ditolak31 Jan, 11:04HP bekasRp 1.500.000,00Ditawar Rp 1.450.000,00Tawaran kamu ditolak penjualPenawaran Produk29 Nov, 05:32Omron TesterRp 345.000,00Ditawar Rp 340.000,00Penawaran Produk Diterima29 Nov, 05:39Omron TesterRp 345.000,00Ditawar Rp 340.000,00Kamu akan segera dihubungi penjual via whatsappPenawaran Produk Ditolak29 Nov, 05:48Omron TesterRp 345.000,00Ditawar Rp 340.000,00Tawaran kamu ditolak penjualPenawaran Produk14 Nov, 04:31Omron TesterRp 345.000,00Ditawar Rp 345.000,00Penawaran Produk Ditolak14 Nov, 04:38Omron TesterRp 345.000,00Ditawar Rp 345.000,00Tawaran kamu ditolak penjualPenawaran Produk04 Feb, 06:57Hp Samsung A52Rp 2.000.000,00Ditawar Rp 1.500.000,00Penawaran Produk26 Jan, 07:29testRp 12.121,00Ditawar Rp 11.000,00Penawaran Produk Ditolak31 Jan, 08:52testRp 12.121,00Ditawar Rp 11.000,00Tawaran kamu ditolak penjualPenawaran Produk06 Feb, 06:51Samsung Galaxy A8Rp 8.750.000,00Ditawar Rp 8.500.000,00Penawaran Produk Ditolak06 Feb, 07:55Samsung Galaxy A8Rp 8.750.000,00Ditawar Rp 8.500.000,00Penawaran Produk06 Feb, 06:39Samsung Galaxy A8Rp 8.750.000,00Ditawar Rp 8.500.000,00Penawaran Produk Ditolak06 Feb, 06:42Samsung Galaxy A8Rp 8.750.000,00Ditawar Rp 8.500.000,00Penawaran Produk06 Feb, 04:58Samsung Galaxy A8Rp 8.750.000,00Ditawar Rp 8.000.000,00Penawaran Produk Ditolak06 Feb, 06:36Samsung Galaxy A8Rp 8.750.000,00Ditawar Rp 8.000.000,00Penawaran Produk31 Jan, 02:17Samsung Galaxy A8Rp 8.750.000,00Ditawar Rp 8.500.000,00Penawaran Produk Ditolak04 Feb, 05:35Samsung Galaxy A8Rp 8.750.000,00Ditawar Rp 8.500.000,00Penawaran Produk07 Nov, 03:51Baju BatikRp 100.000,00Ditawar Rp 85.000,00Penawaran Produk Diterima07 Nov, 04:27Baju BatikRp 100.000,00Ditawar Rp 85.000,00Kamu akan segera dihubungi penjual via whatsappPenawaran Produk Berhasil Disepakati07 Nov, 04:50Baju BatikRp 100.000,00Ditawar Rp 85.000,00Terima Kasih telah membeli produk iniPenawaran Produk07 Nov, 03:51Baju BatikRp 100.000,00Ditawar Rp 85.000,00Penawaran Produk Ditolak07 Nov, 04:29Baju BatikRp 100.000,00Ditawar Rp 85.000,00Tawaran kamu ditolak penjualPenawaran Produk06 Feb, 03:50Hand Sanitizer Spray SoujiRp 15.000,00Ditawar Rp 10.000,00Penawaran Produk Ditolak06 Feb, 06:30Hand Sanitizer Spray SoujiRp 15.000,00Ditawar Rp 10.000,00')]</value>
+      <webElementGuid>257b68ac-d295-4e60-89ff-3b45f3e526db</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
