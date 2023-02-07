@@ -21,13 +21,16 @@ WebUI.callTestCase(findTestCase('Pages/User Login/Navigate to login page'), [:],
 
 WebUI.callTestCase(findTestCase('Pages/User Login/Verify Content'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/User Login/Input email'), [('email') : 'irmapujiandranis@gmail.com'], FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Page_Login/login_input_email'), 'irmapujiandrians@gmail.com')
 
-WebUI.callTestCase(findTestCase('Pages/User Login/Input password'), [('password') : 'hdhd'], FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Page_Login/login_input_password'), 'Admin123')
 
 WebUI.callTestCase(findTestCase('Pages/User Login/Click Button Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyMatch('Akun tidak ditemukan', 'Akun tidak ditemukan', false)
+WebUI.verifyElementPresent(findTestObject('Page_Login/login_error_emailnoutfound'), 0)
 
+WebUI.getText(findTestObject('Page_Login/login_error_emailnoutfound'))
+
+//WebUI.verifyMatch('Akun tidak ditemukan', 'Akun tidak ditemukan', false)
 WebUI.closeBrowser()
 

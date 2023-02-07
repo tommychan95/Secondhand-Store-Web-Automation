@@ -21,13 +21,15 @@ WebUI.callTestCase(findTestCase('Pages/User Login/Navigate to login page'), [:],
 
 WebUI.callTestCase(findTestCase('Pages/User Login/Verify Content'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/User Login/Input email'), [('email') : 'irmapujiandrianis@gmail.com'], FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Page_Login/login_input_email'), 'irmapujiandrianis@gmail.com')
 
-WebUI.callTestCase(findTestCase('Pages/User Login/Input password'), [('password') : 'Admnkk'], FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Page_Login/login_input_password'), 'gdsgd')
 
 WebUI.callTestCase(findTestCase('Pages/User Login/Click Button Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyMatch('Password anda salah!', 'Password anda salah!', false)
+WebUI.verifyElementPresent(findTestObject('Page_Login/login_error_password'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.getText(findTestObject('Page_Login/login_input_password'))
 
 WebUI.closeBrowser()
 

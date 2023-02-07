@@ -69,7 +69,7 @@ class Notification {
 	public void user_click_Notification_Button() {
 		WebUI.callTestCase(findTestCase('Pages/Notification/Click Notification Icon'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@Then("Notification details displayed")
 	public void notification_details_displayed() {
 		WebUI.verifyElementVisible(findTestObject('Page_Notification/div_Penawaran_Produk'))
