@@ -48,6 +48,7 @@ class Notification {
 	@Given("User has successfully login into the website")
 	public void user_has_successfully_login_into_the_website() {
 		WebUI.openBrowser('secondhand-store.herokuapp.com/login')
+		WebUI.maximizeWindow()
 	}
 
 	@When("User input username {string}")
@@ -69,9 +70,9 @@ class Notification {
 	public void user_click_Notification_Button() {
 		WebUI.callTestCase(findTestCase('Pages/Notification/Click Notification Icon'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@Then("Notification details displayed")
 	public void notification_details_displayed() {
-		WebUI.verifyElementVisible(findTestObject('Page_Notification/div_Penawaran_Produk'))
+		WebUI.verifyElementVisible(findTestObject('Page_Notification/div_Penawaran Produk'), FailureHandling.STOP_ON_FAILURE)
 	}
 }
