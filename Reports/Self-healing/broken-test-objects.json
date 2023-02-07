@@ -19,6 +19,15 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Daftar Jual-Ika/Navigate to daftar jual page_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Terima Penawaran harga - Ika/img_Terjual_card-img-top",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027root\u0027]/div/div/div[3]/div[2]/div/div/div/img",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Terima Penawaran harga - Ika/img_Terjual_card-img-top_XPATH.png"
     }
   ]
 }

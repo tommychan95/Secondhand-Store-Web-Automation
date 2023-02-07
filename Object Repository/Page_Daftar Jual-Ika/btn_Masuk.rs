@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Masuk</name>
+   <name>btn_Masuk</name>
    <tag></tag>
    <elementGuidId>b8fcbc1b-2e7c-4e86-8dee-0f782607079b</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='navbarText']/ul/li/a</value>
+      </entry>
       <entry>
          <key>CSS</key>
          <value>li.nav-item-login > a</value>
@@ -12,10 +16,6 @@
       <entry>
          <key>BASIC</key>
          <value>//*[@href = '/login' and (text() = 'Masuk' or . = 'Masuk')]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='navbarText']/ul/li/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
