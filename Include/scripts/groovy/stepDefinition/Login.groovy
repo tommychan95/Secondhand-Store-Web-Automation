@@ -67,7 +67,7 @@ class Login {
 
 	@Then("User navigate to homepage")
 	public void user_navigate_to_homepage() {
-		WebUI.verifyMatch('Telusuri Kategori', 'Telusuri Kategori', false)
+		WebUI.verifyElementVisible(findTestObject('Page_Login/homepage_icon_user'))
 		WebUI.closeBrowser()
 	}
 

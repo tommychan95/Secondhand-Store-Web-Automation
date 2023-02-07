@@ -17,7 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser('secondhand-store.herokuapp.com/')
 
-WebUI.navigateToUrl('secondhand-store.herokuapp.com/login')
+WebUI.maximizeWindow()
+
+WebUI.click(findTestObject('Page_Login/homepage_btn_login'))
 
