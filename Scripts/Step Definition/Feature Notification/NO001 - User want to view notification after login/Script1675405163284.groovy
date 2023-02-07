@@ -21,3 +21,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('secondhand-store.herokuapp.com/login')
 
+WebUI.sendKeys(findTestObject('Page_Login/login_input_email'), 'tommy.chaniago42@gmail.com')
+
+WebUI.sendKeys(findTestObject('Page_Login/login_input_password'), 'Tc@$Ec0ndH@nd955!')
+
+WebUI.click(findTestObject('Page_Login/login_btn'))
+
+WebUI.callTestCase(findTestCase('Pages/Notification/Click Notification Icon'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('Page_Notification/div_Penawaran_Produk'))
+
+WebUI.closeBrowser()
+
