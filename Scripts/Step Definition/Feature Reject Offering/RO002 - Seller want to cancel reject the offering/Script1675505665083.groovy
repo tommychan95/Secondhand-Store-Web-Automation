@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('secondhand-store.herokuapp.com/login')
 
 WebUI.sendKeys(findTestObject('Page_Login/login_input_email'), 'tommy.chaniago42@gmail.com')
@@ -36,6 +38,12 @@ WebUI.callTestCase(findTestCase('Pages/Reject Offering/Click Interested Product 
 WebUI.callTestCase(findTestCase('Pages/Reject Offering/Click Reject'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Reject Offering/Click No'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Page_Reject_Offering/arrow-left_button'))
+
+WebUI.callTestCase(findTestCase('Pages/Reject Offering/Click Diminati Menu'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('Page_Reject_Offering/p_Samsung_Galaxy_A8_Elektronik'))
 
 WebUI.closeBrowser()
 
