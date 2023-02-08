@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Samsung_Galaxy_A8_Elektronik</name>
+   <tag></tag>
+   <elementGuidId>74cf23ff-acde-46fa-a67f-1ad617a1232b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.card-title</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[3]/div[2]/div/div/div/div[2]/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>29965596-7080-4c42-88d9-63dae1197899</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-title</value>
+      <webElementGuid>ab20e53e-6723-4dde-a2aa-88dc531553a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Samsung Galaxy A8 Elektronik</value>
+      <webElementGuid>c5fe485f-43b1-4372-a890-5917e22f923d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;mt-4 pb-4 container&quot;]/div[@class=&quot;mt-4 row&quot;]/div[@class=&quot;col-lg-9 col&quot;]/div[@class=&quot;row row-cols-lg-3&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;content card&quot;]/div[@class=&quot;card-body&quot;]/p[@class=&quot;card-title&quot;]</value>
+      <webElementGuid>6901c6f3-8f81-4e7c-a42e-08063b49ad01</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[3]/div[2]/div/div/div/div[2]/p</value>
+      <webElementGuid>af5e2a0d-cd49-442f-805d-5853c2038cc8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 8.750.000,00'])[10]/preceding::p[2]</value>
+      <webElementGuid>26f34af4-e7f1-4067-af6a-d0ff0170f543</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div[2]/p</value>
+      <webElementGuid>024358f8-1ada-48fb-90f1-8cb53da15d3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Samsung Galaxy A8 Elektronik' or . = 'Samsung Galaxy A8 Elektronik')]</value>
+      <webElementGuid>e9d7ad7f-d10f-4a86-932c-74cd407ba36a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Hand_Sanitizer_card-img-top</name>
+   <tag></tag>
+   <elementGuidId>04574618-8dfa-4942-b0e7-c50f49eba5d3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[3]/div[2]/div/div[2]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;mt-4 pb-4 container&quot;]/div[@class=&quot;mt-4 row&quot;]/div[@class=&quot;col-lg-9 col&quot;]/div[@class=&quot;row row-cols-lg-3&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;content card&quot;]/div[@class=&quot;card-img-top&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8b0a20ce-38a7-4a01-baa8-cfd716c809a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-img-top</value>
+      <webElementGuid>33dbd986-bcc5-49f5-b4b9-bdc4fb3a4cef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;mt-4 pb-4 container&quot;]/div[@class=&quot;mt-4 row&quot;]/div[@class=&quot;col-lg-9 col&quot;]/div[@class=&quot;row row-cols-lg-3&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;content card&quot;]/div[@class=&quot;card-img-top&quot;]</value>
+      <webElementGuid>615b2e43-5039-4acc-86a2-8c487bf0444e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[3]/div[2]/div/div[2]/div/div</value>
+      <webElementGuid>4b99384c-5e4d-4c8c-8615-a042b89147c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 300.000,00'])[4]/following::div[3]</value>
+      <webElementGuid>0f1db5c5-9ca4-47c8-ade0-087d9a8ba436</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hoby'])[1]/following::div[3]</value>
+      <webElementGuid>8a88737f-90c2-4a94-b714-f0b3cd4bf9ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kesehatan'])[1]/preceding::div[1]</value>
+      <webElementGuid>35722f9d-5801-47cc-be20-493751ca0ff0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 15.000,00'])[2]/preceding::div[1]</value>
+      <webElementGuid>a31bcc21-8b8b-431a-adbb-1b25613e6710</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div/div[2]/div/div</value>
+      <webElementGuid>6b30bc86-c4c9-49ba-83ea-d2239809db70</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
