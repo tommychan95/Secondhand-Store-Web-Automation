@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>18827293-8c2a-468a-b82c-f911795b7e26</webElementGuid>
+      <webElementGuid>1cfe687f-efff-4278-9824-d2762a1b5565</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>type</value>
-      <webElementGuid>0dcd3b70-6c08-469e-b3f9-b4723f60e02c</webElementGuid>
+      <webElementGuid>3e790e25-c1d2-4f3d-a05f-0ed7906b00bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>a0c7398f-0249-42ca-802e-9e3bb6892688</webElementGuid>
+      <webElementGuid>d305a40b-a331-4a5b-b9d9-4d2077c91578</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>id</name>
       <type>Main</type>
       <value>nm_produk</value>
-      <webElementGuid>a64d4b94-4514-4b8d-a2a3-1ba74ceed129</webElementGuid>
+      <webElementGuid>082a73ae-04e4-4c37-8308-2f640c9a1803</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Nama</value>
-      <webElementGuid>657f33c5-90f7-45e2-9347-1e6ab7ce074a</webElementGuid>
+      <webElementGuid>35ae4a40-fa25-4689-90d8-d98fff25db74</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>value</name>
       <type>Main</type>
       <value>kelompok1</value>
-      <webElementGuid>6fd8e610-2e34-475b-be19-01844896d0f8</webElementGuid>
+      <webElementGuid>38301ccf-8754-4870-893b-782e454209e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;container mt-5&quot;]/div[@class=&quot;row mt-3&quot;]/form[@class=&quot;col-md-6&quot;]/div[@class=&quot;col-md mb-3&quot;]/input[@id=&quot;nm_produk&quot;]</value>
-      <webElementGuid>f031a0c4-1bee-417d-aaf6-1c3b8d359239</webElementGuid>
+      <webElementGuid>0aaabf1b-1b4c-4037-bf8d-50c83f911904</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='nm_produk']</value>
-      <webElementGuid>9ab102ce-8ea9-472f-ba35-3ce9f1acaa6e</webElementGuid>
+      <webElementGuid>6565f7cf-f471-41b7-b874-65834096f586</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div[2]/form/div/input</value>
-      <webElementGuid>48a0ea89-6d8a-4d30-aa16-95a3707eff6e</webElementGuid>
+      <webElementGuid>748bf9ff-6c8d-4deb-86da-a1a83cd9194d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div/input</value>
-      <webElementGuid>18c10228-8c9a-4cb4-829a-a2905c8cbcf0</webElementGuid>
+      <webElementGuid>36aa69ac-06c4-4c7a-be1f-e93ddaff64e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'type' and @id = 'nm_produk' and @placeholder = 'Nama']</value>
-      <webElementGuid>d87d53ba-6553-4eee-b6a2-16435f2999fc</webElementGuid>
+      <webElementGuid>465eab66-d337-4c21-be8c-d161043de374</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

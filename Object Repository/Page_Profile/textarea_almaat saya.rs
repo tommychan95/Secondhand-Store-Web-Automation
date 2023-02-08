@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>textarea</value>
-      <webElementGuid>d0a3643e-b133-4028-9410-c1b55f77fb2e</webElementGuid>
+      <webElementGuid>58a8bb49-88a2-4073-bb2c-c534a463be98</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>2891cb73-7cc1-46ff-9ca0-795f9a429fbc</webElementGuid>
+      <webElementGuid>27b7c243-ee7e-4383-889b-76889c7157f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>deskripsi</value>
-      <webElementGuid>6a993396-cf9b-41e2-ba40-66c28190a3d1</webElementGuid>
+      <webElementGuid>cd256e47-a9fa-4622-96ee-a353918f3dc6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>rows</name>
       <type>Main</type>
       <value>3</value>
-      <webElementGuid>d6f2b7df-e8e1-4e9a-92d8-d6af934269cf</webElementGuid>
+      <webElementGuid>10c6f9f2-b03a-4d0d-ac16-424d99d41a8c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Contoh: Jalan Ikan Hiu 33</value>
-      <webElementGuid>6e179877-528c-435a-9ffc-3537af6fca4a</webElementGuid>
+      <webElementGuid>9931a5ef-f0de-4410-8ba2-3e419d606ffb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>text</name>
       <type>Main</type>
       <value>almaat saya</value>
-      <webElementGuid>93e25f36-53b7-4ec9-ad36-d50caeef929e</webElementGuid>
+      <webElementGuid>7fa03f1b-23dd-4882-8abc-3fb675a3ffb1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;deskripsi&quot;)</value>
-      <webElementGuid>a2a65f60-2818-4e50-adbe-597f95549f9e</webElementGuid>
+      <webElementGuid>5160783c-0a82-4fa0-9640-d5ffafbbba50</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//textarea[@id='deskripsi']</value>
-      <webElementGuid>e20435f6-0cde-4b28-8acd-7aaec2612858</webElementGuid>
+      <webElementGuid>2ee3e958-a53b-4189-9c48-42ac834067cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div[2]/form/div[3]/textarea</value>
-      <webElementGuid>57de4293-99e6-4d1b-9499-13272e3ca725</webElementGuid>
+      <webElementGuid>77afe0ff-0de8-4a79-a3c3-1df744802e63</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alamat*'])[1]/following::textarea[1]</value>
-      <webElementGuid>73f84ed6-f37b-4c68-8a2b-2bf6d58d759d</webElementGuid>
+      <webElementGuid>1ab1af34-a89e-4f09-ba10-43ae02bb3f69</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kota*'])[1]/following::textarea[1]</value>
-      <webElementGuid>8ac007de-aa80-467e-9d60-8579cfaae637</webElementGuid>
+      <webElementGuid>02b18366-258d-4aa5-bf88-ef32750cdc16</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No.Handphone*'])[1]/preceding::textarea[1]</value>
-      <webElementGuid>80bca0bf-3a8c-43f3-800e-91e6b04d22ee</webElementGuid>
+      <webElementGuid>0b70f158-2302-417b-bf84-2e788adeb2b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='submit'])[1]/preceding::textarea[1]</value>
-      <webElementGuid>c24756f9-985d-4695-90c2-b124f7a135b6</webElementGuid>
+      <webElementGuid>161edeac-4077-4c1b-9ca5-d881ca2d3d92</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='almaat saya']/parent::*</value>
-      <webElementGuid>765d8a50-46ec-4200-8313-70fccd34c092</webElementGuid>
+      <webElementGuid>b6fa6927-e44d-463d-b9e4-cee54dacead4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +134,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//textarea</value>
-      <webElementGuid>61f190cd-9dd3-4e69-b346-5b17490d8411</webElementGuid>
+      <webElementGuid>c33ac99a-3dc3-468f-adf8-263dc8e686c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,6 +142,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//textarea[@id = 'deskripsi' and @placeholder = 'Contoh: Jalan Ikan Hiu 33' and (text() = 'almaat saya' or . = 'almaat saya')]</value>
-      <webElementGuid>9c84b7cd-05f1-441d-a1cd-1d62dd6c7484</webElementGuid>
+      <webElementGuid>cb950182-ecf6-49a4-8b8d-2c6b7f43616a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
