@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Change User Name</name>
+   <name>PF005 - User want to change profile picture</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>9aa9462f-9f1c-448f-bb3a-1f6414a4f0fe</testCaseGuid>
+   <testCaseGuid>1fc6a9de-f892-481a-926d-1144e545cbb4</testCaseGuid>
 </TestCaseEntity>
