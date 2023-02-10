@@ -44,35 +44,35 @@ import cucumber.api.java.en.When
 
 
 
-class Login {
-	@Given("User navigate to Login page")
-	public void user_navigate_to_Login_page() {
-		WebUI.callTestCase(findTestCase('Pages/User Login/Navigate to login page'), [:], FailureHandling.STOP_ON_FAILURE)
+class Notification {
+	@Given("User has successfully login into the website")
+	public void user_has_successfully_login_into_the_website() {
+		WebUI.openBrowser('secondhand-store.herokuapp.com/login')
+		WebUI.maximizeWindow()
 	}
 
-	@When("User input email {string}")
-	public void user_input_email(String email) {
-		WebUI.callTestCase(findTestCase('Pages/User Login/Input email'), [('email') : email], FailureHandling.STOP_ON_FAILURE)
+	@When("User input username {string}")
+	public void user_input_username(String Email) {
+		WebUI.sendKeys(findTestObject('Page_Login/login_input_email'), Email)
 	}
 
-	@When("User input password {string}")
-	public void user_input_password(String password) {
-		WebUI.callTestCase(findTestCase('Pages/User Login/Input password'), [('password') : password], FailureHandling.STOP_ON_FAILURE)
+	@When("User input passwords {string}")
+	public void user_input_passwords(String Password) {
+		WebUI.sendKeys(findTestObject('Page_Login/login_input_password'), Password)
 	}
 
-	@When("User click button Login")
-	public void user_click_button_Login() {
-		WebUI.callTestCase(findTestCase('Pages/User Login/Click Button Login'), [:], FailureHandling.STOP_ON_FAILURE)
+	@When("User click Login Button")
+	public void user_click_Login_Button() {
+		WebUI.click(findTestObject('Page_Login/login_btn'))
 	}
 
-	@Then("User navigate to homepage")
-	public void user_navigate_to_homepage() {
-		WebUI.verifyElementVisible(findTestObject('Page_Login/homepage_icon_user'))
-		WebUI.closeBrowser()
+	@When("User click Notification Button")
+	public void user_click_Notification_Button() {
+		WebUI.callTestCase(findTestCase('Pages/Notification/Click Notification Icon'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@Then("Text warning {string} show up")
-	public void text_warning_show_up(String errorText) {
-		WebUI.verifyMatch(errorText, errorText, false)
+	@Then("Notification details displayed")
+	public void notification_details_displayed() {
+		WebUI.verifyElementVisible(findTestObject('Page_Notification/div_Penawaran Produk'), FailureHandling.STOP_ON_FAILURE)
 	}
 }

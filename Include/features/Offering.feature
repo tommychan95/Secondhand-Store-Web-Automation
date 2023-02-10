@@ -44,35 +44,50 @@ import cucumber.api.java.en.When
 
 
 
-class Login {
-	@Given("User navigate to Login page")
-	public void user_navigate_to_Login_page() {
-		WebUI.callTestCase(findTestCase('Pages/User Login/Navigate to login page'), [:], FailureHandling.STOP_ON_FAILURE)
+class Offering {
+	@Given("Buyer has successfully login into website")
+	public void buyer_has_successfully_login_into_website() {
+		WebUI.openBrowser('secondhand-store.herokuapp.com/login')
+		WebUI.maximizeWindow()
 	}
 
-	@When("User input email {string}")
-	public void user_input_email(String email) {
-		WebUI.callTestCase(findTestCase('Pages/User Login/Input email'), [('email') : email], FailureHandling.STOP_ON_FAILURE)
+	@When("Buyer input username {string}")
+	public void buyer_input_username(String Email) {
+		WebUI.sendKeys(findTestObject('Page_Login/login_input_email'), Email)
 	}
 
-	@When("User input password {string}")
-	public void user_input_password(String password) {
-		WebUI.callTestCase(findTestCase('Pages/User Login/Input password'), [('password') : password], FailureHandling.STOP_ON_FAILURE)
+	@And("Buyer input password {string}")
+	public void buyer_input_password(String Password) {
+		WebUI.sendKeys(findTestObject('Page_Login/login_input_password'), Password)
 	}
 
-	@When("User click button Login")
-	public void user_click_button_Login() {
-		WebUI.callTestCase(findTestCase('Pages/User Login/Click Button Login'), [:], FailureHandling.STOP_ON_FAILURE)
+	@And("Buyer click on LOGIN Button")
+	public void buyer_click_on_LOGIN_Button() {
+		WebUI.click(findTestObject('Page_Login/login_btn'))
 	}
 
-	@Then("User navigate to homepage")
-	public void user_navigate_to_homepage() {
-		WebUI.verifyElementVisible(findTestObject('Page_Login/homepage_icon_user'))
-		WebUI.closeBrowser()
+	@And("Buyer click on PRODUCT Image")
+	public void buyer_click_on_PRODUCT_Image() {
+		WebUI.click(findTestObject('Page_Offering/img_Product_Patung_Motor'))
 	}
 
-	@Then("Text warning {string} show up")
-	public void text_warning_show_up(String errorText) {
-		WebUI.verifyMatch(errorText, errorText, false)
+	@And("Buyer click on INTERESTED Button")
+	public void buyer_click_on_INTERESTED_Button() {
+		WebUI.click(findTestObject('Page_Offering/button_interested'))
+	}
+
+	@And("Buyer input Offering Price {string}")
+	public void buyer_input_Offering_Price(String Harga_Tawar) {
+		WebUI.sendKeys(findTestObject('Page_Offering/input_Harga_Tawar'), Harga_Tawar)
+	}
+
+	@And("Buyer click SEND Button")
+	public void buyer_click_SEND_Button() {
+		WebUI.click(findTestObject('Page_Offering/button_Send'))
+	}
+
+	@Then("Message Harga Tawar Berhasil dikirim displayed")
+	public void message_Harga_Tawar_Berhasil_dikirim_displayed() {
+		WebUI.waitForElementVisible(findTestObject('Page_Offering/message_Harga_tawar_berhasil'), 2)
 	}
 }

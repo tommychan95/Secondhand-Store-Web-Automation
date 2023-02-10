@@ -21,14 +21,15 @@ WebUI.callTestCase(findTestCase('Pages/User Login/Navigate to login page'), [:],
 
 WebUI.callTestCase(findTestCase('Pages/User Login/Verify Content'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/User Login/Input email'), [('email') : 'alt.nm-2yimtbe@yopmail.com'], FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Page_Login/login_input_email'), 'alt.nm-2yimtbe@yopmail.com')
 
-WebUI.callTestCase(findTestCase('Pages/User Login/Input password'), [('password') : 'admin123'], FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Page_Login/login_input_password'), 'dsddd')
 
 WebUI.callTestCase(findTestCase('Pages/User Login/Click Button Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyMatch('Silahkan cek email anda untuk melakukan verifikasi terlebih dahulu', 'Silahkan cek email anda untuk melakukan verifikasi terlebih dahulu', 
-    false)
+WebUI.verifyElementPresent(findTestObject('Page_Login/login_error_unverified'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.getText(findTestObject('Page_Login/login_error_unverified'))
 
 WebUI.closeBrowser()
 

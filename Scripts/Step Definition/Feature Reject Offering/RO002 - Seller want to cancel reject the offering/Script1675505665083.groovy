@@ -17,19 +17,33 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Pages/User Login/Navigate to login page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.callTestCase(findTestCase('Pages/User Login/Verify Content'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Page_Login/login_input_email'), 'irmapujiandrianis@gmail.com')
+WebUI.navigateToUrl('secondhand-store.herokuapp.com/login')
 
-WebUI.setText(findTestObject('Page_Login/login_input_password'), 'gdsgd')
+WebUI.sendKeys(findTestObject('Page_Login/login_input_email'), 'tommy.chaniago42@gmail.com')
 
-WebUI.callTestCase(findTestCase('Pages/User Login/Click Button Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.sendKeys(findTestObject('Page_Login/login_input_password'), 'Tc@$Ec0ndH@nd955!')
 
-WebUI.verifyElementPresent(findTestObject('Page_Login/login_error_password'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_Login/login_btn'))
 
-WebUI.getText(findTestObject('Page_Login/login_input_password'))
+WebUI.callTestCase(findTestCase('Pages/Reject Offering/Click List Menu'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Reject Offering/Click Diminati Menu'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Reject Offering/Click Interested Product 2'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Reject Offering/Click Reject'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Reject Offering/Click No'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Page_Reject_Offering/arrow-left_button'))
+
+WebUI.callTestCase(findTestCase('Pages/Reject Offering/Click Diminati Menu'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('Page_Reject_Offering/p_Samsung_Galaxy_A8_Elektronik'))
 
 WebUI.closeBrowser()
 

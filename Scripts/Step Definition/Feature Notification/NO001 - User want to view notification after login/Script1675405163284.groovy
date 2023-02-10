@@ -17,19 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Pages/User Login/Navigate to login page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.callTestCase(findTestCase('Pages/User Login/Verify Content'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.navigateToUrl('secondhand-store.herokuapp.com/login')
 
-WebUI.setText(findTestObject('Page_Login/login_input_email'), 'irmapujiandrianis@gmail.com')
+WebUI.sendKeys(findTestObject('Page_Login/login_input_email'), 'tommy.chaniago42@gmail.com')
 
-WebUI.setText(findTestObject('Page_Login/login_input_password'), 'gdsgd')
+WebUI.sendKeys(findTestObject('Page_Login/login_input_password'), 'Tc@$Ec0ndH@nd955!')
 
-WebUI.callTestCase(findTestCase('Pages/User Login/Click Button Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_Login/login_btn'))
 
-WebUI.verifyElementPresent(findTestObject('Page_Login/login_error_password'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Notification/Click Notification Icon'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.getText(findTestObject('Page_Login/login_input_password'))
+WebUI.verifyElementVisible(findTestObject('Page_Notification/div_Penawaran_Produk'))
 
 WebUI.closeBrowser()
 

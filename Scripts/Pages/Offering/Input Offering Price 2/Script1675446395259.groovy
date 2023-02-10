@@ -17,5 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('Page_Login/login_input_email'), '')
+WebUI.sendKeys(findTestObject('Page_Offering/input_Harga_Tawar'), '90000')
 

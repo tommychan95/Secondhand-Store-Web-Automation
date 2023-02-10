@@ -17,19 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Pages/User Login/Navigate to login page'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/User Login/Verify Content'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.setText(findTestObject('Page_Login/login_input_email'), 'irmapujiandrianis@gmail.com')
-
-WebUI.setText(findTestObject('Page_Login/login_input_password'), 'gdsgd')
-
-WebUI.callTestCase(findTestCase('Pages/User Login/Click Button Login'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementPresent(findTestObject('Page_Login/login_error_password'), 0, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.getText(findTestObject('Page_Login/login_input_password'))
-
-WebUI.closeBrowser()
+WebUI.sendKeys(findTestObject('Page_Offering/input_Harga_Tawar'), '150000')
 

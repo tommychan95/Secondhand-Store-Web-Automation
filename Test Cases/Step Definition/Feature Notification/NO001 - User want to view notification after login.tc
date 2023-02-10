@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>NO001 - User want to view notification after login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a6f2db46-e214-4ab4-bea2-fe2d85f354d3</testCaseGuid>
+</TestCaseEntity>
