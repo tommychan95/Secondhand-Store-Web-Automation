@@ -11,5 +11,4 @@ monochrome = true
 )
 
 public class Runner {
-	
 }
