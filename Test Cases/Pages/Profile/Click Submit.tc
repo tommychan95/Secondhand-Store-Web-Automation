@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>PF003 - User want to change address</name>
+   <name>Click Submit</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d68b65c7-a062-4681-80ea-76fb9bed0f40</testCaseGuid>
+   <testCaseGuid>bd4f64a7-5f14-4c50-93a2-793c16d3d27c</testCaseGuid>
 </TestCaseEntity>

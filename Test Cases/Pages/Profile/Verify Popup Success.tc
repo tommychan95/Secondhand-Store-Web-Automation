@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>PF003 - User want to change address</name>
+   <name>Verify Popup Success</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d68b65c7-a062-4681-80ea-76fb9bed0f40</testCaseGuid>
+   <testCaseGuid>b8631d1d-439e-4713-9a84-2a5f86248b67</testCaseGuid>
 </TestCaseEntity>

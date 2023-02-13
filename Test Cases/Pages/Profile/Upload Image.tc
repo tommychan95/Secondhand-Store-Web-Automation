@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>PF003 - User want to change address</name>
+   <name>Upload Image</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d68b65c7-a062-4681-80ea-76fb9bed0f40</testCaseGuid>
+   <testCaseGuid>aa9ccbe4-efb5-4d0f-9554-517ad694e8af</testCaseGuid>
 </TestCaseEntity>
