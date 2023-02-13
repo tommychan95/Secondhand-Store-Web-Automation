@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_product</name>
+   <tag></tag>
+   <elementGuidId>6e120ffe-d99c-4cc4-bbde-b34bd91495e9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img.card-img-top</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@src = 'http://res.cloudinary.com/dgaeremr2/image/upload/v1669361172/Products-Customers/sux5krw4rei7ndlj9krr.jpg' and @alt = 'Product Boneka kelinci']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[3]/div[2]/div/div/div/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>ce035834-ecd3-4c9b-aaf5-f9c9cb1a5c51</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>http://res.cloudinary.com/dgaeremr2/image/upload/v1669361172/Products-Customers/sux5krw4rei7ndlj9krr.jpg</value>
+      <webElementGuid>2c90452a-2135-495a-b9db-d4985c4ba6fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-img-top</value>
+      <webElementGuid>08ca2017-dd6c-419b-b42b-44597f38baf9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Product Boneka kelinci</value>
+      <webElementGuid>dec82ba2-a6ad-4f09-8167-e31193eeaf2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;mt-4 pb-4 container&quot;]/div[@class=&quot;mt-4 row&quot;]/div[@class=&quot;col-lg-9 col&quot;]/div[@class=&quot;row row-cols-lg-3&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;content card&quot;]/img[@class=&quot;card-img-top&quot;]</value>
+      <webElementGuid>b5553990-dd05-4ca5-8c3f-d4aa5cb65704</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[3]/div[2]/div/div/div/img</value>
+      <webElementGuid>df503eac-7e87-4e4e-8c87-6587c116b5df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='Product Boneka kelinci']</value>
+      <webElementGuid>61ea8a1e-e410-4514-8209-3b98725fc1b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/img</value>
+      <webElementGuid>fc09546a-4137-4c6c-8136-bbfddffba134</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'http://res.cloudinary.com/dgaeremr2/image/upload/v1669361172/Products-Customers/sux5krw4rei7ndlj9krr.jpg' and @alt = 'Product Boneka kelinci']</value>
+      <webElementGuid>2ce03e50-4b89-4bd2-b216-307ac5fa1714</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
