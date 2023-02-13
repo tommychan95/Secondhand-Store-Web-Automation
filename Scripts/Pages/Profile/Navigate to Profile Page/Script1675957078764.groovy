@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://secondhand-store.herokuapp.com')
 
+WebUI.maximizeWindow()
+
 WebUI.verifyElementVisible(findTestObject('Page_Login/homepage_btn_login'))
 
 WebUI.click(findTestObject('Page_Login/homepage_btn_login'))

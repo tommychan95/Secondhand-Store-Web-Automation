@@ -21,9 +21,9 @@ WebUI.callTestCase(findTestCase('Pages/Profile/Navigate to Profile Page'), [:], 
 
 WebUI.callTestCase(findTestCase('Pages/Profile/Verify Profile Page Content'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.uploadFile(findTestObject('Page_Profile/input_file'), 'C:\\Users\\Imam Gunarto\\Desktop\\case.png')
+WebUI.callTestCase(findTestCase('Pages/Profile/Upload Image'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Profile/button_submit'))
+WebUI.callTestCase(findTestCase('Pages/Profile/Click Submit'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Page_Profile/alert_Berhasil update profile'))
+WebUI.callTestCase(findTestCase('Pages/Profile/Verify Popup Success'), [:], FailureHandling.STOP_ON_FAILURE)
 

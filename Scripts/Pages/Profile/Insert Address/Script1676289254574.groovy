@@ -17,13 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Pages/Profile/Navigate to Profile Page'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Profile/Verify Profile Page Content'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Profile/Insert Phone Number'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Profile/Click Submit'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Profile/Verify Popup Success'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.sendKeys(findTestObject('Page_Profile/textarea_almaat saya'), 'Jakarta Selatan')
 
