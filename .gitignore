@@ -4,3 +4,7 @@
 /.settings/
 /.classpath
 .svn/
+Include/config/
+Profiles/
+Reports/
+settings/
