@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SP002 - User want to update status reject the offering</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b76fa1ea-5b42-41b0-a633-0bc753f9cc55</testCaseGuid>
+</TestCaseEntity>
