@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AP002 - Users cannot add products, because they exceed 4</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7c17f2b1-099c-4273-8550-b6b6670a678b</testCaseGuid>
+</TestCaseEntity>
