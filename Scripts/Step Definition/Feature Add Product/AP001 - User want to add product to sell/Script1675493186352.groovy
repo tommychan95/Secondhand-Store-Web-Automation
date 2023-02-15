@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('secondhand-store.herokuapp.com/login')
 
-WebUI.sendKeys(findTestObject('Page_Login/input_Email_exampleInputEmail1'), 'ndesyntha@gmail.com')
+WebUI.sendKeys(findTestObject('Page_Login/login_input_email'), 'ndesyntha@gmail.com')
 
 WebUI.verifyElementPresent(findTestObject('Page_Login/login_input_password'), 0)
 
@@ -29,11 +29,13 @@ WebUI.sendKeys(findTestObject('Page_Login/login_input_password'), 'Desyntha@123'
 
 WebUI.click(findTestObject('Page_Login/login_btn'))
 
+WebUI.maximizeWindow()
+
 WebUI.callTestCase(findTestCase('Pages/User Add Product/Navigate to Sell List'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/User Add Product/Navigate to Add Product'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/User Add Product/Input Product Name'), [('name') : 'Jedai Hercules'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/User Add Product/Input Product Name'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/User Add Product/Input Product Price'), [('price') : '20000'], FailureHandling.STOP_ON_FAILURE)
 
@@ -43,6 +45,10 @@ WebUI.callTestCase(findTestCase('Pages/User Add Product/Input Product Descriptio
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/User Add Product/Click Button Terbitkan'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Add Product/button_icon_list'))
+
+WebUI.verifyElementPresent(findTestObject('Add Product/product_name'), 0)
 
 WebUI.closeBrowser()
 

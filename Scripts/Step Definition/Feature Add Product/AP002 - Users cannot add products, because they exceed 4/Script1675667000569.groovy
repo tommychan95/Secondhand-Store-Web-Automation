@@ -21,13 +21,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('secondhand-store.herokuapp.com/login')
 
-WebUI.sendKeys(findTestObject('Page_Login/input_Email_exampleInputEmail1'), 'ndesyntha@gmail.com')
+WebUI.sendKeys(findTestObject('Page_Login/login_input_email'), 'ndesyntha@gmail.com')
 
 WebUI.sendKeys(findTestObject('Page_Login/login_input_password'), 'Desyntha@123')
 
 WebUI.verifyElementPresent(findTestObject('Page_Login/login_btn'), 3)
 
 WebUI.click(findTestObject('Page_Login/login_btn'))
+
+WebUI.maximizeWindow()
 
 WebUI.callTestCase(findTestCase('Pages/User Add Product/Navigate to Sell List'), [:], FailureHandling.STOP_ON_FAILURE)
 
