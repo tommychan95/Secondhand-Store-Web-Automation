@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>login_class_error</name>
+   <name>login_error_unverified</name>
    <tag></tag>
-   <elementGuidId>f9b30cb7-96b0-461d-8889-fc6f5947453f</elementGuidId>
+   <elementGuidId>83a51f0a-eb0a-42b9-ac0c-699b68e411cc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@class = 'alert alert-danger alert-dismissible fade show' and @role = 'alert']</value>
+         <key>CSS</key>
+         <value>div.alert.alert-danger.alert-dismissible.fade.show</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div/div/div[2]/form/div</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>div.alert.alert-danger.alert-dismissible.fade.show</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,47 +22,39 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>cd0179f5-f0f7-4328-9f90-e7ca37c7746b</webElementGuid>
+      <webElementGuid>bd531e6a-9ee1-4b81-820b-79e9bd338078</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>alert alert-danger alert-dismissible fade show</value>
-      <webElementGuid>1665a72a-9059-4524-b842-eb9abae818df</webElementGuid>
+      <webElementGuid>9a5273d8-c5d9-4436-a3e3-c457b2133b88</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>role</name>
       <type>Main</type>
       <value>alert</value>
-      <webElementGuid>1383e010-855f-40da-8d48-6d4e56176bd9</webElementGuid>
+      <webElementGuid>dbbfe913-49cc-4933-93aa-7248d35042e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Password anda salah!×</value>
-      <webElementGuid>1bddf159-bc67-44b7-ae0c-18bb07afc081</webElementGuid>
+      <value>Silahkan cek email anda untuk melakukan verifikasi terlebih dahulu×</value>
+      <webElementGuid>b12471fb-4d52-43eb-aed4-9fbbff312b78</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-6 form-register&quot;]/form[1]/div[@class=&quot;alert alert-danger alert-dismissible fade show&quot;]</value>
-      <webElementGuid>b6c3b5c6-f3c8-49a5-8c0e-677b704b9a70</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>css</name>
-      <type>Main</type>
-      <value>//p[.='Password anda salah!']</value>
-      <webElementGuid>966d80e7-b13c-40c4-a977-a41fcdeb572f</webElementGuid>
+      <webElementGuid>82977097-9183-4038-8896-733303e261ad</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -74,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div[2]/form/div</value>
-      <webElementGuid>b7a23eab-644c-46f6-be85-d5765800f313</webElementGuid>
+      <webElementGuid>a4a4eba1-9761-44f5-9af0-9c1db743996a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Masuk'])[1]/following::div[1]</value>
-      <webElementGuid>b022eed4-42e5-47be-92bc-2922705c91bc</webElementGuid>
+      <webElementGuid>9d4f284c-6cc4-4e6d-9b0b-44c38591eb07</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SecondHand.'])[1]/following::div[2]</value>
-      <webElementGuid>7ae71a61-936c-4773-8af6-184f65052df5</webElementGuid>
+      <webElementGuid>910c2791-f835-4410-9649-27cb6e9c03dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/preceding::div[1]</value>
-      <webElementGuid>93146a0c-e191-4fcf-871f-ba464b0d0c94</webElementGuid>
+      <webElementGuid>182e66fb-a235-4f21-beef-a0003bd91a5e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/preceding::div[2]</value>
-      <webElementGuid>8d21d8b0-29e9-487a-8a02-16dc9d98dcff</webElementGuid>
+      <webElementGuid>aa8b25da-740f-400e-8c01-f322fd631983</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,14 +102,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div</value>
-      <webElementGuid>df971fe3-ab6d-43d6-a932-117a08bab6a1</webElementGuid>
+      <webElementGuid>89b9dd14-3b9e-44b5-837d-98245a6446c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'Password anda salah!×' or . = 'Password anda salah!×')]</value>
-      <webElementGuid>ade2f822-77fe-4889-a252-f0e2eab68879</webElementGuid>
+      <value>//div[(text() = 'Silahkan cek email anda untuk melakukan verifikasi terlebih dahulu×' or . = 'Silahkan cek email anda untuk melakukan verifikasi terlebih dahulu×')]</value>
+      <webElementGuid>2bfd4d28-a7df-4dcb-8cf1-6a70e59eb91e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

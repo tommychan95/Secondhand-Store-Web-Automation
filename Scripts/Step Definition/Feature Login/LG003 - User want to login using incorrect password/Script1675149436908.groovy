@@ -29,7 +29,7 @@ WebUI.callTestCase(findTestCase('Pages/User Login/Click Button Login'), [:], Fai
 
 WebUI.verifyElementPresent(findTestObject('Page_Login/login_error_password'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.getText(findTestObject('Page_Login/login_input_password'))
+WebUI.getText(findTestObject('Page_Login/login_error_password'))
 
 WebUI.closeBrowser()
 
