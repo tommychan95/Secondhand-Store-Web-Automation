@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementVisible(findTestObject('Page_Terima Penawaran harga - Ika/btn_Terima'))
+WebUI.verifyElementVisible(findTestObject('null'))
 
-WebUI.verifyElementVisible(findTestObject('Page_Terima Penawaran harga - Ika/alert_Tawaran produk diterima'))
+WebUI.verifyElementVisible(findTestObject('null'))
 
-WebUI.verifyElementVisible(findTestObject('Page_Terima Penawaran harga - Ika/txt_Tawaran produk diterima'))
+WebUI.verifyElementVisible(findTestObject('null'))
 
-WebUI.verifyElementVisible(findTestObject('Page_Terima Penawaran harga - Ika/close alert tawaran produk diterima'))
+WebUI.verifyElementVisible(findTestObject('null'))
 

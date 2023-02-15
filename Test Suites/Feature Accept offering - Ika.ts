@@ -18,4 +18,11 @@
       <testCaseId>Test Cases/Step Definition/Feature Accept offering/TP001 - User want to accept the offering price product</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>7a9fb40d-1b7c-44cb-896a-0f0ecb63c78e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Step Definition/Feature Accept offering/TP002 - User want to accept a price offer that has been accepted by the seller</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

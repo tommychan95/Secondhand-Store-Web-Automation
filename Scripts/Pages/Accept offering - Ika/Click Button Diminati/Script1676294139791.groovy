@@ -19,5 +19,3 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Page_Pilih produk penawaran-Ika/btn_diminati'))
 
-WebUI.click(findTestObject('Page_Terima Penawaran harga - Ika/img_Terjual_card-img-top'))
-

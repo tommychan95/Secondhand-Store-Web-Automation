@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>card_product</name>
+   <tag></tag>
+   <elementGuidId>b114c643-7039-425c-8fc1-2a56e839027d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[3]/div[2]/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.content.card</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>79d25dfc-1c52-4253-92fb-386b9ad3c722</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>content card</value>
+      <webElementGuid>cc80cdf5-4f7a-49a9-afba-1594e5812e7f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Boneka pika Hobyika aminRp 900.000,00 / Rp 100.000,00</value>
+      <webElementGuid>7da786ee-d7a4-4115-b045-b5332f4e8c76</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;mt-4 pb-4 container&quot;]/div[@class=&quot;mt-4 row&quot;]/div[@class=&quot;col-lg-9 col&quot;]/div[@class=&quot;row row-cols-lg-3&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;content card&quot;]</value>
+      <webElementGuid>0ef60cea-aba4-4598-9bef-cfea13bb34f0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[3]/div[2]/div/div/div</value>
+      <webElementGuid>ed3c8255-bd7b-4699-b979-7c4121ae7c90</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div/div/div</value>
+      <webElementGuid>c5cc178a-7b3e-456b-90f6-3fcb158e91a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Boneka pika Hobyika aminRp 900.000,00 / Rp 100.000,00' or . = 'Boneka pika Hobyika aminRp 900.000,00 / Rp 100.000,00')]</value>
+      <webElementGuid>05c7ce9d-890b-4764-91e8-35c0d1c9b3d8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

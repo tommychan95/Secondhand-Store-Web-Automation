@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
 WebUI.callTestCase(findTestCase('Pages/User Login/Navigate to login page'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Page_Login/login_input_email'), 'ikaamintri01@gmail.com')
@@ -34,6 +32,8 @@ WebUI.callTestCase(findTestCase('Pages/Choose product - Ika/Click Button Diminat
 WebUI.callTestCase(findTestCase('Pages/Choose product - Ika/Click item product'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Accept offering - Ika/Click Button Terima Penawaran'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('Page_Accept Offering/alert_accept_success'))
 
 WebUI.closeBrowser()
 

@@ -17,13 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Pages/User Login/Navigate to login page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Terima Penawaran Harga - Ika/Click Navigate to daftar jual page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Page_Login/login_input_email'), 'ikaamintri01@gmail.com')
 
-WebUI.callTestCase(findTestCase('Pages/Terima Penawaran Harga - Ika/Click Diminati'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Page_Login/login_input_password'), 'kaminka13')
 
-WebUI.callTestCase(findTestCase('Pages/Terima Penawaran Harga - Ika/Click Terima Penawaran'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/User Login/Click Button Login'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Page_Pilih produk penawaran-Ika/List_Product'))
+
+WebUI.callTestCase(findTestCase('Pages/Choose product - Ika/Click Button Diminati'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Choose product - Ika/Click item product'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('Page_Accept Offering/button_status'))
 
 WebUI.closeBrowser()
 
