@@ -17,17 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Pages/User Login/Navigate to login page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Step Definition/Feature Login/LG001 - User want to login using correct credential'), [:], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Page_Login/login_input_email'), 'irmapujiandrianis@gmail.com')
+WebUI.callTestCase(findTestCase('Pages/User Logout/Click icon user'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Page_Login/login_input_password'), 'Admin123')
-
-WebUI.click(findTestObject('Page_Login/login_btn'))
-
-WebUI.click(findTestObject('Page Logout/btn_logo_user'))
-
-WebUI.click(findTestObject('Page Logout/btn_logout'))
+WebUI.callTestCase(findTestCase('Pages/User Logout/Click Button Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Page_Login/homepage_btn_login'), 0)
+
+WebUI.closeBrowser()
 
