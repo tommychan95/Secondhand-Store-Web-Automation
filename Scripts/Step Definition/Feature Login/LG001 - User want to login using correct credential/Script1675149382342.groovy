@@ -27,7 +27,7 @@ WebUI.setText(findTestObject('Page_Login/login_input_password'), 'Admin123')
 
 WebUI.callTestCase(findTestCase('Pages/User Login/Click Button Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Page_Login/homepage_icon_user'))
+WebUI.verifyElementVisible(findTestObject('Page_Login/homepage_banner'))
 
 WebUI.closeBrowser()
 
