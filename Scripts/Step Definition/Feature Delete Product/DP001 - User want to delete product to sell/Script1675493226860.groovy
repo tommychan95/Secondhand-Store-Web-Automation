@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('secondhand-store.herokuapp.com/login')
 
-WebUI.sendKeys(findTestObject('Page_Login/input_Email_exampleInputEmail1'), 'ndesyntha@gmail.com')
+WebUI.sendKeys(findTestObject('Page_Login/login_input_email'), 'ndesyntha@gmail.com')
 
 WebUI.verifyElementPresent(findTestObject('Page_Login/login_input_password'), 0)
 

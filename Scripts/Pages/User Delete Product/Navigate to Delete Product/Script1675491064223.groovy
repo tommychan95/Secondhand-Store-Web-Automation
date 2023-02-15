@@ -17,11 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.waitForElementPresent(findTestObject('Edit Product/p_Jedai Hercules'), 3)
+WebUI.waitForElementPresent(findTestObject('Add Product/product_name'), 3)
 
-WebUI.click(findTestObject('Edit Product/p_Jedai Hercules'))
+WebUI.click(findTestObject('Add Product/product_name'))
 
 WebUI.waitForElementPresent(findTestObject('Delete Product/btn_Delete'), 3)
 
 WebUI.click(findTestObject('Delete Product/btn_Delete'))
+
+WebUI.click(findTestObject('Add Product/button_icon_list'))
+
+WebUI.verifyElementNotPresent(findTestObject('Add Product/product_name'), 0)
 
