@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>DJ001 - User want to select item offer product</name>
+   <name>DJ001 - User want to see product on Daftar Jual page</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>17db64ba-bd9b-47b4-85ad-27730424a1f8</testCaseGuid>

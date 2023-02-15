@@ -23,17 +23,15 @@ WebUI.callTestCase(findTestCase('Pages/User Login/Navigate to login page'), [:],
 
 WebUI.callTestCase(findTestCase('Pages/User Login/Verify Content'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Page_Login/login_input_email'), 'ikaamintri01@gmail.com')
+WebUI.setText(findTestObject('Page_Login/login_input_email'), 'ikatriyuliyanti@gmail.com')
 
 WebUI.setText(findTestObject('Page_Login/login_input_password'), 'kaminka13')
 
 WebUI.callTestCase(findTestCase('Pages/User Login/Click Button Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Pilih produk penawaran-Ika/List_Product'))
+WebUI.callTestCase(findTestCase('Pages/Daftar Jual - Ika/Click navigate daftar jual'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Choose product - Ika/Click Button Diminati'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Choose product - Ika/Click item product'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('Page_Accept Offering/card_product2'), 0)
 
 WebUI.closeBrowser()
 

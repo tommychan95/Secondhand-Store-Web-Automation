@@ -15,7 +15,7 @@
       <guid>f5d03ed5-efd3-4835-ac8a-9d30a9514886</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Step Definition/Feature Daftar Jual - Ika/DJ001 - User want to select item offer product</testCaseId>
+      <testCaseId>Test Cases/Step Definition/Feature Daftar Jual - Ika/DJ001 - User want to see product on Daftar Jual page</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
