@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('secondhand-store.herokuapp.com/login')
 
-WebUI.sendKeys(findTestObject('Page_Login/input_Email_exampleInputEmail1'), 'ndesyntha@gmail.com')
+WebUI.sendKeys(findTestObject('Page_Login/login_input_email'), 'ndesyntha@gmail.com')
 
 WebUI.sendKeys(findTestObject('Page_Login/login_input_password'), 'Desyntha@123')
 
@@ -30,6 +30,14 @@ WebUI.click(findTestObject('Page_Login/login_btn'))
 WebUI.callTestCase(findTestCase('Pages/User Add Product/Navigate to Sell List'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/User Edit Product/Navigate to Edit Product'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/User Edit Product/Click Button Terbitkan'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/User Add Product/Navigate to Sell List'), [:], FailureHandling.STOP_ON_FAILURE)
+
+productPrice = WebUI.getText(findTestObject('Edit Product/product_price'))
+
+WebUI.verifyMatch(productPrice, 'Rp 10.000,00', false)
 
 WebUI.delay(6)
 
