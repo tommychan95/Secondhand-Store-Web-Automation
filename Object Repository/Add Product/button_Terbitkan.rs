@@ -3,30 +3,26 @@
    <description></description>
    <name>button_Terbitkan</name>
    <tag></tag>
-   <elementGuidId>8a076b6c-c806-48ec-a97c-0cdc902ff7b0</elementGuidId>
+   <elementGuidId>4068d4f0-5121-46e9-8c87-aa66bd8a5143</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>button.btn.btn-primary</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//button[@type='submit']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//button[@type = 'submit' and (text() = 'Terbitkan' or . = 'Terbitkan')]</value>
+         <key>CSS</key>
+         <value>button.btn.btn-primary</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e5ce2c7f-a40f-470c-8ff1-157da5f38dcc</webElementGuid>
+      <webElementGuid>1ac3c164-3c1a-4c65-80f7-b1a2391fa5df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>5be47fab-bd63-4943-bec0-ead4742156d3</webElementGuid>
+      <webElementGuid>13ee9c84-c95c-458f-b481-6945bb814993</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary</value>
-      <webElementGuid>58b6131c-6ae5-45eb-acb2-df335ed6d370</webElementGuid>
+      <webElementGuid>3f6ce838-08c2-4d57-95bc-a416f09190c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Terbitkan</value>
-      <webElementGuid>6721c531-1bb9-4517-82ee-2bbe4915d590</webElementGuid>
+      <webElementGuid>8e997194-e5a5-4b20-ac6e-7ea1456c15e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;container&quot;]/div[@class=&quot;row mt-5&quot;]/form[@class=&quot;col-md-6&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md mb-3 d-grid&quot;]/button[@class=&quot;btn btn-primary&quot;]</value>
-      <webElementGuid>2b03a933-f0e3-4e00-8e33-c062903ed955</webElementGuid>
+      <webElementGuid>d95e7633-427a-44ea-a9d3-9b0d37e10789</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='submit']</value>
-      <webElementGuid>3be61702-49b0-49ef-9c43-50e7d2e5476c</webElementGuid>
+      <webElementGuid>27161752-b0d7-476e-8517-17b399ebd956</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div/form/div[6]/div[2]/button</value>
-      <webElementGuid>c4dbb743-90ec-4cc0-b935-8dfaed6f0eb3</webElementGuid>
+      <webElementGuid>a35d1e0e-aa76-41da-9911-9bb8afc2ada7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Preview'])[1]/following::button[1]</value>
-      <webElementGuid>ce2654ad-1829-4ce9-8545-a03de03e71d4</webElementGuid>
+      <webElementGuid>53ef7823-ee21-495b-8898-d42312291610</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Foto Produk'])[1]/following::button[2]</value>
-      <webElementGuid>836573b8-4377-4645-98e4-c7aa6c468bbd</webElementGuid>
+      <webElementGuid>f93dcd6d-615b-4e3a-869e-b2ddd5a0458b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
-      <webElementGuid>883c4fcd-1eb5-4a24-b1c5-3f07a22b128e</webElementGuid>
+      <webElementGuid>e4bcf598-d09d-413d-88cd-fd87bbc4c77e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::button[1]</value>
-      <webElementGuid>cc979755-fe09-46eb-be29-09ab2ffb0fd9</webElementGuid>
+      <webElementGuid>cccb707c-fa5a-4487-80e8-1e39a5c083a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Terbitkan']/parent::*</value>
-      <webElementGuid>0da36b2c-852b-4167-a6ca-bb95fb0898a5</webElementGuid>
+      <webElementGuid>b0430ed2-1e84-433f-acb8-749b6ecb22ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/button</value>
-      <webElementGuid>9b581f42-cd1c-4ded-bccc-2e3f38b2f29a</webElementGuid>
+      <webElementGuid>3d6e7b94-1238-4094-a1b2-bd421f9bb842</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'submit' and (text() = 'Terbitkan' or . = 'Terbitkan')]</value>
-      <webElementGuid>aaafcefc-a01c-4c53-b043-2a88e8a6fc7b</webElementGuid>
+      <webElementGuid>b487b9d7-ef0c-4ef7-b88c-09288c60d361</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

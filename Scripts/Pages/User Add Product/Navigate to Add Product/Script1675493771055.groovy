@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.waitForElementPresent(findTestObject('Sell List/a_Tambah Produk'), 3)
+WebUI.waitForElementPresent(findTestObject('Add Product/button_add_product'), 3)
 
-WebUI.click(findTestObject('Sell List/a_Tambah Produk'))
+WebUI.click(findTestObject('Add Product/button_add_product'))
 
