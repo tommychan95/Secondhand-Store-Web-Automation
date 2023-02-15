@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <FolderEntity>
    <description>folder</description>
-   <name>Page_Terima Penawaran harga - Ika</name>
+   <name>Page_Accept Offering</name>
    <tag></tag>
    <folderType>WEBELEMENT</folderType>
 </FolderEntity>

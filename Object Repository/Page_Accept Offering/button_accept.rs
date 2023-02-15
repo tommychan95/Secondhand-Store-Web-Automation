@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_Terima</name>
+   <name>button_accept</name>
    <tag></tag>
-   <elementGuidId>c7955439-2ebd-4760-ba2c-6a0016ad90d5</elementGuidId>
+   <elementGuidId>dab3bb9c-14d0-4cc2-83be-3eecf0fc446c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -14,7 +14,7 @@
          <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>dae4fa0c-d6df-45ae-955d-12a2a83a7fe1</webElementGuid>
+      <webElementGuid>459ea1c4-54ea-4b9d-8e09-6dd6ba370b25</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>9955dc24-ec29-4689-bad6-b367ba63fa4e</webElementGuid>
+      <webElementGuid>4c520b62-b93d-4ac2-a20f-a15d1e0242f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>data-bs-toggle</name>
       <type>Main</type>
       <value>modal</value>
-      <webElementGuid>725cc3b7-1842-456c-a9cf-292c271e046d</webElementGuid>
+      <webElementGuid>60892f7b-22b9-4b75-89a8-f0b4b53d58c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>data-bs-target</name>
       <type>Main</type>
       <value>#exampleModalTerima</value>
-      <webElementGuid>6caeaac2-8964-416c-974f-5475b31b52df</webElementGuid>
+      <webElementGuid>11fdc746-9248-4330-96ad-b05642418c58</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary col btn btn-primary</value>
-      <webElementGuid>1eaf378c-1b8d-483c-b8e3-acbcd720831e</webElementGuid>
+      <webElementGuid>8490a241-c0bf-4ec6-a16b-bd3654560371</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,15 +62,15 @@
       <name>text</name>
       <type>Main</type>
       <value>Terima</value>
-      <webElementGuid>b58b187a-ef29-4ed7-b614-812e5a7c60c4</webElementGuid>
+      <webElementGuid>493340c3-38bd-42c6-a88e-040ba12d6c71</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;container&quot;]/div[@class=&quot;row mt-5&quot;]/div[@class=&quot;col-md-6&quot;]/div[@class=&quot;row mt-3&quot;]/div[@class=&quot;col-md-10&quot;]/div[@class=&quot;row mb-3&quot;]/div[@class=&quot;col-md-8 offset-md-4 row&quot;]/button[@class=&quot;btn btn-primary col btn btn-primary&quot;]</value>
-      <webElementGuid>40771632-1c60-43a1-8f57-8e87c7ae1d70</webElementGuid>
+      <webElementGuid>cae80f85-ed49-4d58-a28c-bac7bcb088fd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[4]</value>
-      <webElementGuid>dcd6a889-9923-4ef3-b1b1-cff6b45f523b</webElementGuid>
+      <webElementGuid>51e4e5ef-5644-4507-84cb-eee659017507</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div/div[2]/div[2]/div[2]/div[2]/div/button[2]</value>
-      <webElementGuid>05255e58-3b98-4744-bab1-b44c1affcb94</webElementGuid>
+      <webElementGuid>c84a939c-5fd4-433c-ac31-b8f398fb1a0f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,15 +94,31 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tolak'])[1]/following::button[1]</value>
-      <webElementGuid>d0987270-8450-4b18-9233-0e267296bb86</webElementGuid>
+      <webElementGuid>b290a548-05a7-4405-9fbc-60bbe8be2467</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ditawar Rp 80.000,00'])[2]/following::button[2]</value>
-      <webElementGuid>3f00ae2e-5aa6-4dcc-b0ee-ed3dda53db79</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ditawar Rp 15.000,00'])[2]/following::button[2]</value>
+      <webElementGuid>34416216-8826-432d-898e-91a5016bc0eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
+      <webElementGuid>31bd6348-097e-4dcb-b0f7-c561776719e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::button[1]</value>
+      <webElementGuid>7623ad4b-b850-4929-a8bc-dab6ee0045c0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Terima']/parent::*</value>
-      <webElementGuid>c36a6125-0a73-4519-a4de-cf8eb7836b87</webElementGuid>
+      <webElementGuid>8c0daad3-16bf-433a-84da-a217f9842e45</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +134,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[2]</value>
-      <webElementGuid>1d77da05-b4db-4ddc-a71c-37ba5ba04aa0</webElementGuid>
+      <webElementGuid>34298e91-8e90-403a-a138-52d68fc4e3a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +142,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Terima' or . = 'Terima')]</value>
-      <webElementGuid>8f2bb859-12e8-43e1-9d64-95e2acb1fb21</webElementGuid>
+      <webElementGuid>60ef6abb-9739-45fc-a054-4a77aa4e93fa</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

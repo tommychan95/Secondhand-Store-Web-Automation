@@ -17,5 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Page_Terima Penawaran harga - Ika/btn_Terima'))
+WebUI.click(findTestObject('Page_Accept Offering/button_accept'))
 
