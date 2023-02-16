@@ -31,13 +31,17 @@ WebUI.click(findTestObject('Page_Pilih produk penawaran-Ika/List_Product'))
 
 WebUI.callTestCase(findTestCase('Pages/Accept offering - Ika/Click Button Diminati'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Accept offering - Ika/Click Button Terima Penawaran'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Choose product - Ika/Click item product'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Offering status - Ika/Click Button Status'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Offering status - Ika/Pilih status berhasil'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Offering status - Ika/Click Button Kirim Status'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('Page_Accept Offering/alert_update_status_success'), 0)
+
+WebUI.getText(findTestObject('Page_Accept Offering/alert_accept_success'))
 
 WebUI.closeBrowser()
 
