@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>card_product</name>
+   <name>card_product3</name>
    <tag></tag>
-   <elementGuidId>81366846-12fd-4416-a88d-6782524eb182</elementGuidId>
+   <elementGuidId>5f0a3be3-815e-4e26-b1a2-42f4cc6febc4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div[3]/div[2]/div/div[2]/div</value>
+         <value>//div[@id='root']/div/div/div[3]/div[2]/div/div[3]/div</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>97a525b0-8d16-478a-8b0a-bdd5737871cb</webElementGuid>
+      <webElementGuid>b0d135a5-56ca-4f2c-8b0e-7c2c84278f73</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,15 +30,15 @@
       <name>class</name>
       <type>Main</type>
       <value>content card</value>
-      <webElementGuid>fe371db6-c9e9-4df8-a7bc-e8cbc7396c16</webElementGuid>
+      <webElementGuid>95bd023d-b7de-4468-9b5b-d7e112bb2690</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Sepeda004 KendaraanRp 580.000,00 / Rp 65.000,00</value>
-      <webElementGuid>9dadcfde-4270-4208-bd5f-1e14ef8c798e</webElementGuid>
+      <value>Sepeda005 KendaraanRp 6.500.000,00 / Rp 850.000,00</value>
+      <webElementGuid>045bb9d1-6a73-42aa-8e86-c3610bcc60ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,46 +46,46 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;mt-4 pb-4 container&quot;]/div[@class=&quot;mt-4 row&quot;]/div[@class=&quot;col-lg-9 col&quot;]/div[@class=&quot;row row-cols-lg-3&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;content card&quot;]</value>
-      <webElementGuid>9b9b390c-dc0d-44a4-a9fb-134836d74482</webElementGuid>
+      <webElementGuid>cef7c075-3fd1-4fea-bd52-8cfb9a6c9dde</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div/div[3]/div[2]/div/div[2]/div</value>
-      <webElementGuid>9c72586b-dc4c-4ade-8925-e229f6372f75</webElementGuid>
+      <value>//div[@id='root']/div/div/div[3]/div[2]/div/div[3]/div</value>
+      <webElementGuid>11cc8d39-0de7-4d0c-9dad-7c029ddb83a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 900.000,00'])[3]/following::div[2]</value>
-      <webElementGuid>0577097a-ea74-440e-a7b8-d1d3b9829306</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 580.000,00'])[2]/following::div[2]</value>
+      <webElementGuid>bca35a6b-6f08-4851-8690-97661602f656</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hoby'])[1]/following::div[2]</value>
-      <webElementGuid>fd55df55-2bf4-4c46-a9bb-613d8c58dcd1</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kendaraan'])[1]/following::div[2]</value>
+      <webElementGuid>82003c0c-c8fa-4b1e-abfd-c7542147a012</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div[2]/div/div[2]/div</value>
-      <webElementGuid>e9c0686a-addf-421f-b867-e05160c6109b</webElementGuid>
+      <value>//div[2]/div/div[3]/div</value>
+      <webElementGuid>8d0518d1-ae06-4996-a6eb-7bb3d8b6e725</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'Sepeda004 KendaraanRp 580.000,00 / Rp 65.000,00' or . = 'Sepeda004 KendaraanRp 580.000,00 / Rp 65.000,00')]</value>
-      <webElementGuid>5d7f80e3-eeed-462c-a532-6fab44595b95</webElementGuid>
+      <value>//div[(text() = 'Sepeda005 KendaraanRp 6.500.000,00 / Rp 850.000,00' or . = 'Sepeda005 KendaraanRp 6.500.000,00 / Rp 850.000,00')]</value>
+      <webElementGuid>a99aa784-8eea-4fae-a991-3ffc7479cb40</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

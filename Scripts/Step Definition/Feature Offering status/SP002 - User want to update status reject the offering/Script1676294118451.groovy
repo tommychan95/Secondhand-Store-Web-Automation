@@ -31,6 +31,8 @@ WebUI.click(findTestObject('Page_Pilih produk penawaran-Ika/List_Product'))
 
 WebUI.callTestCase(findTestCase('Pages/Accept offering - Ika/Click Button Diminati'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('Page_Accept Offering/card_product3'))
+
 WebUI.callTestCase(findTestCase('Pages/Accept offering - Ika/Click Button Terima Penawaran'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Offering status - Ika/Click Button Status'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -38,6 +40,8 @@ WebUI.callTestCase(findTestCase('Pages/Offering status - Ika/Click Button Status
 WebUI.callTestCase(findTestCase('Pages/Offering status - Ika/Pilih status batalkan'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Offering status - Ika/Click Button Kirim Status'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementNotPresent(findTestObject('Page_Accept Offering/button_status'), 0)
 
 WebUI.closeBrowser()
 
