@@ -2,17 +2,31 @@
 Feature: User search by category
 
   @SB001
-  Scenario: User want to search hobby by category 
-    Given User access secondhand website
-    When User while username with "ndesyntha@gmail.com"
-    And User while password with "Desyntha@123"
-    And User press button Login
-    Then User press button Hobby
+  Scenario: User want to search product by category hobby
+    Given User open secondhand website
+    When User click button Hobby
+    Then Just product with category Hoby will appear
 
   @SB002
-  Scenario: User want to search kesehatan by category
-  	Given User access web secondhand
-  	When User fill username "ndesyntha@gmail.com"
-  	And User fill pass "Desyntha@123"
-  	And User click Login
-  	Then User click button Kesehatan 
+  Scenario: User want to search product by category kesehatan
+    Given User open secondhand website
+    When User click button Kesehatann
+    Then Just product with category kesehatan will appear
+
+  @SB003
+  Scenario: User want to search product by category Baju
+    Given User open secondhand website
+    When User click button Baju
+    Then Just product with category Baju will appear
+
+  @SB004
+  Scenario: User want to search product by category Elektronik
+    Given User open secondhand website
+    When User click button Elektronik
+    Then Just product with category Elektronik will appear
+
+  @SB005
+  Scenario: User want to search product by category Kendaraan
+    Given User open secondhand website
+    When User click button Kendaraan
+    Then Just product with category Kendaraan will appear

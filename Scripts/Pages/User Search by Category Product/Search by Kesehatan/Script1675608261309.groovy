@@ -17,7 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.waitForElementPresent(findTestObject('Search by Category/btn_Kesehatan'), 3)
+WebUI.verifyMatch('Ini kategori Kesehatan', 'Ini kategori Kesehatan', false)
 
-WebUI.click(findTestObject('Search by Category/btn_Kesehatan'))
+WebUI.verifyTextNotPresent('Ini kategori Baju', false)
+
+WebUI.verifyTextNotPresent('Ini kategori Elektronik', false)
+
+WebUI.verifyTextNotPresent('Ini kategori Kendaraan', false)
+
+WebUI.verifyTextNotPresent('Ini kategori Hoby', false)
 

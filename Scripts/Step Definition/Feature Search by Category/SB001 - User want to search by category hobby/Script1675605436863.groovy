@@ -31,17 +31,9 @@ WebUI.sendKeys(findTestObject('Object Repository/Page_Login/login_input_password
 
 WebUI.click(findTestObject('Object Repository/Page_Login/login_btn'))
 
+WebUI.callTestCase(findTestCase('Pages/User Search by Category Product/Click button Hoby'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('Pages/User Search by Category Product/Search by Hobby'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyMatch('Ini kategori Hoby', 'Ini kategori Hoby', false)
-
-WebUI.verifyTextNotPresent('Ini kategori Baju', false)
-
-WebUI.verifyTextNotPresent('Ini kategori Elektronik', false)
-
-WebUI.verifyTextNotPresent('Ini kategori Kendaraan', false)
-
-WebUI.verifyTextNotPresent('Ini kategori Kesehatan', false)
 
 WebUI.closeBrowser()
 

@@ -48,11 +48,12 @@ class Delete_Product {
 	@Given("User fill website on fitur search website")
 	public void user_fill_website_on_fitur_search_website() {
 		WebUI.openBrowser('secondhand-store.herokuapp.com/login')
+		WebUI.maximizeWindow()
 	}
 
 	@When("User while email {string}")
 	public void user_while_email(String email) {
-		WebUI.sendKeys(findTestObject('Page_Login/input_Email_exampleInputEmail1'), email)
+		WebUI.sendKeys(findTestObject('Page_Login/login_input_email'), email)
 	}
 
 	@When("User while password {string}")

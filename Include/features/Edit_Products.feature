@@ -1,14 +1,14 @@
-@Edit @Smoke
-Feature: User want to edit product to sell
+@Edit_Products @Smoke
+Feature: User Login
 
-  @EP001
-  Scenario Outline: User edit product
-    Given User access website secondhand
+  @LG001
+  Scenario: User want to login using correct credential
+    Given User access websites secondhand
     When User fill email "ndesyntha@gmail.com"
     And User input pass "Desyntha@123"
     And User push login button
     And User push button Sell List  
  		And User click Edit Produk
     And User plugin Harga Produk
-    Then User push submit button
-
+    And User push submit button
+    Then Harga Produk already change

@@ -51,12 +51,12 @@ class Accept_Offering {
 	}
 
 	@When("Sellers input username {string}")
-	public void sellers_input_username(String string) {
+	public void sellers_input_username(String Email) {
 		WebUI.setText(findTestObject('Page_Login/login_input_email'), Email)
 	}
 
 	@When("Sellers input passwords {string}")
-	public void sellers_input_passwords(String string) {
+	public void sellers_input_passwords(String Password) {
 		WebUI.setText(findTestObject('Page_Login/login_input_password'), Password)
 	}
 
@@ -68,6 +68,7 @@ class Accept_Offering {
 	@When("Sellers click List Product")
 	public void sellers_click_List_Product() {
 		WebUI.click(findTestObject('Page_Pilih produk penawaran-Ika/List_Product'))
+		
 	}
 
 	@When("Sellers click button Diminati")
@@ -77,11 +78,13 @@ class Accept_Offering {
 
 	@When("Sellers click item product")
 	public void sellers_click_item_product() {
-		WebUI.callTestCase(findTestCase('Pages/Choose product - Ika/Click item product'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.click(findTestObject('Page_Accept Offering/card_product4'))
 	}
 
 	@When("Sellers click button Terima Penawaran")
 	public void sellers_click_button_Terima_Penawaran() {
 		WebUI.callTestCase(findTestCase('Pages/Accept offering - Ika/Click Button Terima Penawaran'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.verifyElementVisible(findTestObject('Page_Accept Offering/alert_accept_success'))
+		WebUI.closeBrowser()
 	}
 }

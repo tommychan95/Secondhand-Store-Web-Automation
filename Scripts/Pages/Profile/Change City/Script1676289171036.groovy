@@ -17,5 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.selectOptionByLabel(findTestObject('Page_Profile/select_city'), 'Jakarta', false)
+WebUI.selectOptionByLabel(findTestObject('Page_Profile/select_city'), 'Yogyakarta', false)
 

@@ -17,21 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://secondhand-store.herokuapp.com/login')
-
-WebUI.sendKeys(findTestObject('Page_Login/login_input_email'), 'ndesyntha@gmail.com')
-
-WebUI.verifyElementPresent(findTestObject('Page_Login/login_input_password'), 3)
-
-WebUI.sendKeys(findTestObject('Page_Login/login_input_password'), 'Desyntha@123')
-
-WebUI.click(findTestObject('Page_Login/login_btn'))
-
-WebUI.callTestCase(findTestCase('Pages/User Search by Category Product/Click button Kesehatan'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/User Search by Category Product/Search by Kesehatan'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Search by Category/btn_Kesehatan'))
 

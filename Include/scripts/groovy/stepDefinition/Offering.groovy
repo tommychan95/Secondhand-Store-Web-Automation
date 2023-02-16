@@ -67,7 +67,7 @@ class Offering {
 
 	@And("Buyer click on PRODUCT Image")
 	public void buyer_click_on_PRODUCT_Image() {
-		WebUI.click(findTestObject('Page_Offering/img_Product_Patung_Motor'))
+		WebUI.click(findTestObject('Object Repository/Page_Offering/product_card2'))
 	}
 
 	@And("Buyer click on INTERESTED Button")
@@ -84,7 +84,7 @@ class Offering {
 	public void buyer_click_SEND_Button() {
 		WebUI.click(findTestObject('Page_Offering/button_Send'))
 	}
-	
+
 	@Then("Message Harga Tawar Berhasil dikirim displayed")
 	public void message_Harga_Tawar_Berhasil_dikirim_displayed() {
 		WebUI.waitForElementVisible(findTestObject('Page_Offering/message_Harga_tawar_berhasil'), 2)

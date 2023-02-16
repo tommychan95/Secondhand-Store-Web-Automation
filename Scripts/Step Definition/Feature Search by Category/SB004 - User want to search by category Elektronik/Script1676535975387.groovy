@@ -19,17 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://secondhand-store.herokuapp.com/')
 
-WebUI.click(findTestObject('Search by Category/button_Elektronik'))
+WebUI.callTestCase(findTestCase('Pages/User Search by Category Product/Click button Elektronik'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyMatch('Ini kategori Elektronik', 'Ini kategori Elektronik', false)
-
-WebUI.verifyTextNotPresent('Ini kategori Kesehatan', false)
-
-WebUI.verifyTextNotPresent('Ini kategori Baju', false)
-
-WebUI.verifyTextNotPresent('Ini kategori Kendaraan', false)
-
-WebUI.verifyTextNotPresent('Ini kategori Hoby', false)
+WebUI.callTestCase(findTestCase('Pages/User Search by Category Product/Serach by Elektronik'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 
