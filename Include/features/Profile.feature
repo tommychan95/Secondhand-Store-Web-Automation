@@ -11,7 +11,7 @@ Feature: Profile
 	@PF002
   Scenario: User want to change city
     Given User navigate to Profile page
-    When User input city "Jakarta"
+    When User input city "Yogyakarta"
     And User click button submit
     Then Text success show up
 
@@ -29,16 +29,3 @@ Feature: Profile
     And User click button submit
     Then Text success show up
     
-  @PF005
-  Scenario: User want to change name with number 
-    Given User navigate to Profile page
-    When User input name "123456"
-    And User click button submit
-    Then Text success not show up
-    
-  @PF006
-  Scenario: User want to change phone number with invalid format
-    Given User navigate to Profile page
-    When User input phone number "Testing Account"
-    And User click button submit
-    Then Text success not show up

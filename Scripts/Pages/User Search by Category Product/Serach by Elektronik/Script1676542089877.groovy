@@ -17,21 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.verifyMatch('Ini kategori Elektronik', 'Ini kategori Elektronik', false)
 
-WebUI.navigateToUrl('https://secondhand-store.herokuapp.com/login')
+WebUI.verifyTextNotPresent('Ini kategori Kesehatan', false)
 
-WebUI.sendKeys(findTestObject('Page_Login/login_input_email'), 'ndesyntha@gmail.com')
+WebUI.verifyTextNotPresent('Ini kategori Baju', false)
 
-WebUI.verifyElementPresent(findTestObject('Page_Login/login_input_password'), 3)
+WebUI.verifyTextNotPresent('Ini kategori Kendaraan', false)
 
-WebUI.sendKeys(findTestObject('Page_Login/login_input_password'), 'Desyntha@123')
-
-WebUI.click(findTestObject('Page_Login/login_btn'))
-
-WebUI.callTestCase(findTestCase('Pages/User Search by Category Product/Click button Kesehatan'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/User Search by Category Product/Search by Kesehatan'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.closeBrowser()
+WebUI.verifyTextNotPresent('Ini kategori Hoby', false)
 

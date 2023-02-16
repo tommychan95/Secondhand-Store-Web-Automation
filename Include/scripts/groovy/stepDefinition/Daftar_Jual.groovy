@@ -44,39 +44,31 @@ import cucumber.api.java.en.When
 
 
 
-class Choose_Product {
-	@Given("Sellerr navigate to Login page")
-	public void sellerr_navigate_to_Login_page() {
+class Daftar_Jual {
+	
+	@Given("User open browser secondhand website")
+	public void user_open_browser_secondhand_website() {
+		WebUI.openBrowser('secondhand-store.herokuapp.com/login')
+		WebUI.maximizeWindow()
+	}
+
+	@When("User login accounts")
+	public void user_login_accounts() {
 		WebUI.callTestCase(findTestCase('Pages/User Login/Navigate to login page'), [:], FailureHandling.STOP_ON_FAILURE)
-	}
-
-	@When("Sellerr input username {string}")
-	public void sellerr_input_username(String string) {
-		WebUI.setText(findTestObject('Page_Login/login_input_email'), Email)
-	}
-
-	@When("Sellerr input passwords {string}")
-	public void sellerr_input_passwords(String string) {
-		WebUI.setText(findTestObject('Page_Login/login_input_password'), Password)
-	}
-
-	@When("Sellerr click button Login")
-	public void sellerr_click_button_Login() {
+		WebUI.setText(findTestObject('Page_Login/login_input_email'), 'ikatriyuliyanti@gmail.com')
+		WebUI.setText(findTestObject('Page_Login/login_input_password'), 'kaminka13')
 		WebUI.callTestCase(findTestCase('Pages/User Login/Click Button Login'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@When("Sellerr click List Product")
-	public void sellerr_click_List_Product() {
-		WebUI.click(findTestObject('Page_Pilih produk penawaran-Ika/List_Product'))
+	@When("User navigate to Daftar Jual page")
+	public void user_navigate_to_Daftar_Jual_page() {
+		WebUI.callTestCase(findTestCase('Pages/Daftar Jual - Ika/Click navigate daftar jual'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@When("Sellerr click button Diminati")
-	public void click_button_Diminati() {
-		WebUI.callTestCase(findTestCase('Pages/Choose product - Ika/Click Button Diminati'), [:], FailureHandling.STOP_ON_FAILURE)
+	@Then("Product to sell will show up")
+	public void product_to_sell_will_show_up() {
+		WebUI.verifyElementPresent(findTestObject('Page_Accept Offering/card_product2'), 0)
+		WebUI.closeBrowser()
 	}
-
-	@When("Sellerr click item product")
-	public void sellerr_click_item_product() {
-		WebUI.callTestCase(findTestCase('Pages/Choose product - Ika/Click item product'), [:], FailureHandling.STOP_ON_FAILURE)
-	}
+	
 }

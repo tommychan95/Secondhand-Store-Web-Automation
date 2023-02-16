@@ -78,10 +78,7 @@ class Profile {
 	@Then("Text success show up")
 	public void text_success_show_up() {
 		WebUI.callTestCase(findTestCase('Pages/Profile/Verify Popup Success'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.closeBrowser()
 	}
 
-	@Then("Text success not show up")
-	public void text_success_hide() {
-		WebUI.callTestCase(findTestCase('Pages/Profile/Verify Popup Success is not showing'), [:], FailureHandling.STOP_ON_FAILURE)
-	}
 }

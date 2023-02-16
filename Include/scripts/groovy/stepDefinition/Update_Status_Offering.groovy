@@ -45,111 +45,84 @@ import cucumber.api.java.en.When
 
 
 class Update_Status_Offering {
-
-	// product yang berhasil statusnya
-	//positive case
-
-	@Given("Selller navigate to Login page")
-	public void selller_navigate_to_Login_page() {
-		WebUI.callTestCase(findTestCase('Pages/User Login/Navigate to login page'), [:], FailureHandling.STOP_ON_FAILURE)
+	@Given("Selllers navigate to Login page")
+	public void selllers_navigate_to_Login_page() {
+		WebUI.openBrowser('')
+		WebUI.navigateToUrl('secondhand-store.herokuapp.com/login')
+		WebUI.maximizeWindow()
 	}
 
-	@When("Selller input username {string}")
-	public void selller_input_username(String string) {
-		WebUI.setText(findTestObject('Page_Login/login_input_email'), Email)
+	@When("Selllers input username {string}")
+	public void selllers_input_username(String email) {
+		WebUI.sendKeys(findTestObject('Page_Login/login_input_email'), email)
 	}
 
-	@When("Selller input passwords {string}")
-	public void selller_input_passwords(String string) {
-		WebUI.setText(findTestObject('Page_Login/login_input_password'), Password)
+	@When("Selllers input passwords {string}")
+	public void selllers_input_passwords(String password) {
+		WebUI.sendKeys(findTestObject('Page_Login/login_input_password'), password)
 	}
 
-	@When("Selller click button Login")
-	public void selller_click_button_Login() {
-		WebUI.callTestCase(findTestCase('Pages/User Login/Click Button Login'), [:], FailureHandling.STOP_ON_FAILURE)
+	@When("Selllers click button Login")
+	public void selllers_click_button_Login() {
+		WebUI.click(findTestObject('Page_Login/login_btn'))
 	}
 
-	@When("Selller click List Product")
-	public void selller_click_List_Product() {
+	@When("Selllers click List Product")
+	public void selllers_click_List_Product() {
 		WebUI.click(findTestObject('Page_Pilih produk penawaran-Ika/List_Product'))
 	}
 
-	@When("Selller click button Diminati")
-	public void selller_click_button_Diminati() {
-		WebUI.callTestCase(findTestCase('Pages/Choose product - Ika/Click Button Diminati'), [:], FailureHandling.STOP_ON_FAILURE)
+	@When("Selllers click button Diminati")
+	public void selllers_click_button_Diminati() {
+		WebUI.callTestCase(findTestCase('Pages/Accept offering - Ika/Click Button Diminati'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@When("Selller click item product")
-	public void selller_click_item_product() {
-		WebUI.callTestCase(findTestCase('Pages/Choose product - Ika/Click item product'), [:], FailureHandling.STOP_ON_FAILURE)
+	@When("Selllers click item product")
+	public void selllers_click_item_product() {
+		WebUI.click(findTestObject('Page_Status Penawaran/Page_Secondhand Store/card_product_offering'))
 	}
 
-	@When("Selller click button Terima Penawaran")
-	public void selller_click_button_Terima_Penawaran() {
-		WebUI.callTestCase(findTestCase('Pages/Accept offering - Ika/Click Button Terima Penawaran'), [:], FailureHandling.STOP_ON_FAILURE)
-	}
 
-	@When("Selllers click button Status")
-	public void selller_click_button_Status() {
+	@When("Selllers click buttons Status")
+	public void selllers_click_buttons_Status() {
 		WebUI.callTestCase(findTestCase('Pages/Offering status - Ika/Click Button Status'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@When("Selllers click pilih status berhasil")
-	public void selller_click_pilih_status_berhasil() {
-		WebUI.callTestCase(findTestCase('Pages/Offering status - Ika/Pilih status berhasil'), [:], FailureHandling.STOP_ON_FAILURE)
+	@When("Selllers click pilih statuss berhasil")
+	public void selllers_click_pilih_statuss_berhasil() {
+		WebUI.click(findTestObject('Page_Status Penawaran/radiobutton_berhasil_terjual'))
 	}
 
-	@When("Selllers click button kirim status")
-	public void selller_click_button_kirim_status() {
+	@When("Selllers click buttons kirim status")
+	public void selllers_click_buttons_kirim_status() {
 		WebUI.callTestCase(findTestCase('Pages/Offering status - Ika/Click Button Kirim Status'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@Then("Text warning {string} show up")
-	public void text_warning_show_up(String errorText) {
-		WebUI.verifyMatch(errorText, errorText, false)
+	@Then("alert success update showup")
+	public void alert_success_update_showup() {
+		WebUI.verifyElementPresent(findTestObject('Page_Accept Offering/alert_update_status_success'), 0)
+		WebUI.getText(findTestObject('Page_Accept Offering/alert_accept_success'))
+		WebUI.closeBrowser()
+	}
+	
+	@When("Selllers click item product to be canceled")
+	public void selllers_click_item_product_to_be_canceled() {
+		WebUI.click(findTestObject('Page_Status Penawaran/Page_Secondhand Store/card_product_offering2'))
 	}
 
-	// product yang dibatalkan statusnya
-	//negative case
-
-	@When("Selllerr click List Product")
-	public void selllerr_click_List_Product() {
-		WebUI.click(findTestObject('Page_Pilih produk penawaran-Ika/List_Product'))
+	@When("Selllerrs click pilih status batalkan")
+	public void selllerrs_click_pilih_status_batalkan() {
+		WebUI.click(findTestObject('Page_Status Penawaran/radiobutton_batalkan_terjual'))
 	}
 
-	@When("Selllerr click button Diminati")
-	public void selllerr_click_button_Diminati() {
-		WebUI.callTestCase(findTestCase('Pages/Choose product - Ika/Click Button Diminati'), [:], FailureHandling.STOP_ON_FAILURE)
-	}
-
-	@When("Selllerr click item product")
-	public void selllerr_click_item_product() {
-		WebUI.callTestCase(findTestCase('Pages/Choose product - Ika/Click item product'), [:], FailureHandling.STOP_ON_FAILURE)
-	}
-
-	@When("Selllerr click button Terima Penawaran")
-	public void selllerr_click_button_Terima_Penawaran() {
-		WebUI.callTestCase(findTestCase('Pages/Accept offering - Ika/Click Button Terima Penawaran'), [:], FailureHandling.STOP_ON_FAILURE)
-	}
-
-	@When("Selllerr click button Status")
-	public void selllerr_click_button_Status() {
-		WebUI.callTestCase(findTestCase('Pages/Offering status - Ika/Click Button Status'), [:], FailureHandling.STOP_ON_FAILURE)
-	}
-
-	@When("Selllerr click pilih status batalkan")
-	public void selllerr_click_pilih_status_batalkan() {
-		WebUI.callTestCase(findTestCase('Pages/Offering status - Ika/Pilih status batalkan'), [:], FailureHandling.STOP_ON_FAILURE)
-	}
-
-	@When("Selllerr click button kirim status")
-	public void selllerr_click_button_kirim_status() {
+	@When("Selllerrs click button kirim status")
+	public void selllerrs_click_button_kirim_status() {
 		WebUI.callTestCase(findTestCase('Pages/Offering status - Ika/Click Button Kirim Status'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@Then("Text warning {string} show up")
-	public void textt_warning_show_up(String errorText) {
-		WebUI.verifyMatch(errorText, errorText, false)
+	@Then("product missing from diminati page")
+	public void product_missing_from_diminati_page() {
+		WebUI.verifyElementNotPresent(findTestObject('Page_Accept Offering/button_status'), 0)
+		WebUI.closeBrowser()
 	}
-
 }

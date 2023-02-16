@@ -44,10 +44,11 @@ import cucumber.api.java.en.When
 
 
 
-class Edit_Product {
-	@Given("User access website secondhand")
+class Edit_Products {
+	@Given("User access websites secondhand")
 	public void user_access_website_secondhand() {
 		WebUI.openBrowser('secondhand-store.herokuapp.com/login')
+		WebUI.maximizeWindow()
 	}
 
 	@When("User fill email {string}")
@@ -67,21 +68,29 @@ class Edit_Product {
 
 	@When("User push button Sell List")
 	public void user_push_button_Sell_List() {
-		WebUI.click(findTestObject('Sell List/btn_Add Product'))
+		WebUI.callTestCase(findTestCase('Pages/User Add Product/Navigate to Sell List'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("User click Edit Produk")
 	public void user_click_Edit_Produk() {
-		WebUI.callTestCase(findTestCase('Pages/User Edit Product/Navigate to Edit Product'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.click(findTestObject('Add Product/product_name'))
+		WebUI.click(findTestObject('Edit Product/button_Edit'))
 	}
 
 	@When("User plugin Harga Produk")
 	public void user_plugin_Harga_Produk() {
-		WebUI.sendKeys(findTestObject('Edit Product/input_Harga Produk_harga_produk'), 15000)
+		WebUI.setText(findTestObject('Edit Product/input_Harga Produk_harga_produk'), '13500')
 	}
 
-	@Then("User push submit button")
+	@When("User push submit button")
 	public void user_push_submit_button() {
 		WebUI.callTestCase(findTestCase('Pages/User Add Product/Click Button Terbitkan'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@Then("Harga Produk already change")
+	public void harga_produk_already_change() {
+		WebUI.callTestCase(findTestCase('Pages/User Add Product/Navigate to Sell List'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.verifyMatch('Rp 13.500,00', 'Rp 13.500,00', false)
+		WebUI.closeBrowser()
 	}
 }

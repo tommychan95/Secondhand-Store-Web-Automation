@@ -52,12 +52,12 @@ class Login {
 
 	@When("User input email {string}")
 	public void user_input_email(String email) {
-		WebUI.callTestCase(findTestCase('Pages/User Login/Input email'), [('email') : email], FailureHandling.STOP_ON_FAILURE)
+		WebUI.setText(findTestObject('Page_Login/login_input_email'), email)
 	}
 
 	@When("User input password {string}")
 	public void user_input_password(String password) {
-		WebUI.callTestCase(findTestCase('Pages/User Login/Input password'), [('password') : password], FailureHandling.STOP_ON_FAILURE)
+		WebUI.setText(findTestObject('Page_Login/login_input_password'), password)
 	}
 
 	@When("User click button Login")
@@ -67,7 +67,7 @@ class Login {
 
 	@Then("User navigate to homepage")
 	public void user_navigate_to_homepage() {
-		WebUI.verifyElementVisible(findTestObject('Page_Login/homepage_icon_user'))
+		WebUI.verifyElementVisible(findTestObject('Page_Login/homepage_banner'))
 		WebUI.closeBrowser()
 	}
 

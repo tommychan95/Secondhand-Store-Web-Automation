@@ -3,29 +3,26 @@ Feature: User Add Product
 
   @AP001
     Scenario: AP001 - User want to add product to sell
-    Given User successfully access secondhand website
-    When User input username "ndesyntha@gmail.com"
-    And User input passwordd "Desyntha@123"
-    And User click login button
-    And User click Sell List 
-    And User click Add Product   
-    And User fill Nama Produk
-    And User fill Harga Produk
-    And User choose Kategori
-    And User fill Deskripsi
-    Then User click submit button
+    Given User success access secondhand website
+    When User login account
+    And User click button Sell List 
+    And User click button Add Product   
+    And User input Nama Produk "Jedai"
+    And User input Harga Produk "20000"
+    And User choose Categori 
+    And User input Deskripsi "Good Condition"
+    And User click btn submit
+    Then Product already created
 
   @AP002
   	Scenario: AP002 - User cannot add products, because they exceed 4
-  	Given User success open browser secondhand
-  	When User fill email with "ndesyntha@gmail.com"
-  	And User fill pwd with "Desyntha@123"
-  	And User press btn login
-  	And User press btn sell list
-  	And User press btn add product
-  	And User fill product name
-  	And User fill product price
-  	And User choose category 
-  	And User fill description
-  	And User receives a failed product add notification
-  	Then User press btn submit
+  	Given User success access secondhand website
+    When User login account
+    And User click button Sell List 
+    And User click button Add Product   
+    And User input Nama Produk "Jedai"
+    And User input Harga Produk "20000"
+    And User choose Categori
+    And User input Deskripsi "Good Condition"
+    And User click btn submit
+  	Then User receive a failed product add notification

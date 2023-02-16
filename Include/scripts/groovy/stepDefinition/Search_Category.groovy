@@ -45,53 +45,63 @@ import cucumber.api.java.en.When
 
 
 class Search_Category {
-	@Given("User access secondhand website")
-	public void user_access_secondhand_website() {
-		WebUI.openBrowser('https://secondhand-store.herokuapp.com/login')
+	@Given("User open secondhand website")
+	public void user_open_secondhand_website() {
+		WebUI.openBrowser('https://secondhand-store.herokuapp.com/')
 	}
 
-	@When("User while username with {string}")
-	public void user_while_username_with(String email) {
-		WebUI.sendKeys(findTestObject('Page_Login/input_Email_exampleInputEmail1'), email)
+	@When("User click button Hobby")
+	public void user_click_button_Hobby() {
+		WebUI.callTestCase(findTestCase('Pages/User Search by Category Product/Click button Hoby'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@When("User while password with {string}")
-	public void user_while_password_with(String password) {
-		WebUI.sendKeys(findTestObject('Page_Login/login_input_password'), password)
-	}
-
-	@When("User press button Login")
-	public void user_press_button_Login() {
-		WebUI.click(findTestObject('Page_Login/login_btn'))
-	}
-
-	@Then("User press button Hobby")
-	public void user_press_button_Hobby() {
+	@Then("Just product with category Hoby will appear")
+	public void just_product_with_category_Hoby_will_appear() {
 		WebUI.callTestCase(findTestCase('Pages/User Search by Category Product/Search by Hobby'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.closeBrowser()
 	}
 
-	@Given("User access web secondhand")
-	public void user_access_web_secondhand() {
-		WebUI.openBrowser('https://secondhand-store.herokuapp.com/login')
+	@When("User click button Kesehatann")
+	public void user_click_button_Kesehatann() {
+		WebUI.callTestCase(findTestCase('Pages/User Search by Category Product/Click button Kesehatan'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@When("User fill username {string}")
-	public void user_fill_username(String email) {
-		WebUI.sendKeys(findTestObject('Page_Login/input_Email_exampleInputEmail1'), email)
-	}
-
-	@When("User fill pass {string}")
-	public void user_fill_pass(String password) {
-		WebUI.sendKeys(findTestObject('Page_Login/login_input_password'), password)
-	}
-
-	@When("User click Login")
-	public void user_click_Login() {
-		WebUI.click(findTestObject('Page_Login/login_btn'))
-	}
-
-	@Then("User click button Kesehatan")
-	public void user_click_button_Kesehatan() {
+	@Then("Just product with category kesehatan will appear")
+	public void just_product_with_category_kesehatan_will_appear() {
 		WebUI.callTestCase(findTestCase('Pages/User Search by Category Product/Search by Kesehatan'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.closeBrowser()
+	}
+
+	@When("User click button Baju")
+	public void user_click_button_Baju() {
+		WebUI.callTestCase(findTestCase('Pages/User Search by Category Product/Click button Baju'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@Then("Just product with category Baju will appear")
+	public void just_product_with_category_Baju_will_appear() {
+		WebUI.callTestCase(findTestCase('Pages/User Search by Category Product/Search by baju'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.closeBrowser()
+	}
+
+	@When("User click button Elektronik")
+	public void user_click_button_Elektronik() {
+		WebUI.callTestCase(findTestCase('Pages/User Search by Category Product/Click button Elektronik'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@Then("Just product with category Elektronik will appear")
+	public void just_product_with_category_Elektronik_will_appear() {
+		WebUI.callTestCase(findTestCase('Pages/User Search by Category Product/Serach by Elektronik'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.closeBrowser()
+	}
+
+	@When("User click button Kendaraan")
+	public void user_click_button_Kendaraan() {
+		WebUI.callTestCase(findTestCase('Pages/User Search by Category Product/Click button Kendaraan'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@Then("Just product with category Kendaraan will appear")
+	public void just_product_with_category_Kendaraan_will_appear() {
+		WebUI.callTestCase(findTestCase('Pages/User Search by Category Product/Search by Kendaraan'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.closeBrowser()
 	}
 }
