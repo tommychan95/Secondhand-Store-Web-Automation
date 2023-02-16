@@ -12,17 +12,38 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>543653c9-ee7d-4078-80bf-00ae4fe46369</testSuiteGuid>
    <testCaseLink>
-      <guid>657f9c34-5cd4-4ecf-8eff-a9cc3c594e1c</guid>
+      <guid>e4570104-0223-41e4-9044-732cf1129dba</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Step Definition/Feature Search by Category/SB001 - User want to search by category hobby</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a6bfd272-bc9b-4d9e-9fd2-e9e5ea547c7b</guid>
+      <guid>dfe8cd61-bc36-4a5a-b2b6-216b1274cc48</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Step Definition/Feature Search by Category/SB002 - User want to search by category kesehatan</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>49f45681-11bd-49a1-953d-db0177ab9894</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Step Definition/Feature Search by Category/SB003 - User want to search by category Baju</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>64ecbeeb-b566-47d6-9ac2-a5e4b9ac17bf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Step Definition/Feature Search by Category/SB004 - User want to search by category Elektronik</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>94c3f974-cb7c-4611-91fc-5900394c4268</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Step Definition/Feature Search by Category/SB005 - User want to search by category Kendaraan</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

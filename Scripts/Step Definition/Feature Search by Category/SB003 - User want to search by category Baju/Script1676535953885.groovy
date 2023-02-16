@@ -17,31 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://secondhand-store.herokuapp.com/')
 
-WebUI.navigateToUrl('https://secondhand-store.herokuapp.com/login')
+WebUI.click(findTestObject('Search by Category/button_Baju'))
 
-WebUI.maximizeWindow()
+WebUI.verifyMatch('Ini kategori Baju', 'Ini kategori Baju', false)
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_Login/login_input_email'), 'ndesyntha@gmail.com')
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Login/login_input_password'), 3)
-
-WebUI.sendKeys(findTestObject('Object Repository/Page_Login/login_input_password'), 'Desyntha@123')
-
-WebUI.click(findTestObject('Object Repository/Page_Login/login_btn'))
-
-WebUI.callTestCase(findTestCase('Pages/User Search by Category Product/Search by Hobby'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyMatch('Ini kategori Hoby', 'Ini kategori Hoby', false)
-
-WebUI.verifyTextNotPresent('Ini kategori Baju', false)
+WebUI.verifyTextNotPresent('Ini kategori Kesehatan', false)
 
 WebUI.verifyTextNotPresent('Ini kategori Elektronik', false)
 
 WebUI.verifyTextNotPresent('Ini kategori Kendaraan', false)
 
-WebUI.verifyTextNotPresent('Ini kategori Kesehatan', false)
+WebUI.verifyTextNotPresent('Ini kategori Hoby', false)
 
 WebUI.closeBrowser()
 
