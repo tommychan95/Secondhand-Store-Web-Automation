@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://secondhand-store.herokuapp.com/login')
 
-WebUI.sendKeys(findTestObject('Page_Login/input_Email_exampleInputEmail1'), 'ndesyntha@gmail.com')
+WebUI.sendKeys(findTestObject('Page_Login/login_input_email'), 'ndesyntha@gmail.com')
 
 WebUI.verifyElementPresent(findTestObject('Page_Login/login_input_password'), 3)
 
@@ -31,7 +31,15 @@ WebUI.click(findTestObject('Page_Login/login_btn'))
 
 WebUI.callTestCase(findTestCase('Pages/User Search by Category Product/Search by Kesehatan'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(6)
+WebUI.verifyMatch('Ini kategori Kesehatan', 'Ini kategori Kesehatan', false)
+
+WebUI.verifyTextNotPresent('Ini kategori Baju', false)
+
+WebUI.verifyTextNotPresent('Ini kategori Elektronik', false)
+
+WebUI.verifyTextNotPresent('Ini kategori Kendaraan', false)
+
+WebUI.verifyTextNotPresent('Ini kategori Hoby', false)
 
 WebUI.closeBrowser()
 
