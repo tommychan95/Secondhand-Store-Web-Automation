@@ -10,3 +10,8 @@ Reports/
 console.properties
 secondhand-store-website-automation-kelompok-3.prj
 settings/
+/bin/
+/Libs/
+/.settings/
+/.classpath
+.svn/

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Text_NameProduct</name>
+   <tag></tag>
+   <elementGuidId>19f6bef0-f5be-48e8-a3da-ce1c51f0237b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;mt-4 pb-4 container&quot;]/div[@class=&quot;mt-4 row&quot;]/div[@class=&quot;col-lg-9 col&quot;]/div[@class=&quot;row row-cols-lg-3&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;content card&quot;]/div[@class=&quot;card-body&quot;]/p[@class=&quot;card-title&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[3]/div[2]/div/div/div/div[2]/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.card-title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>92d9a8aa-99df-44d0-8639-a6c2a820274d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-title</value>
+      <webElementGuid>8b29b41a-6bec-4714-8a28-bd002fa8b394</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value></value>
+      <webElementGuid>15ac9049-0ea1-4787-841b-ee89d61679e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;mt-4 pb-4 container&quot;]/div[@class=&quot;mt-4 row&quot;]/div[@class=&quot;col-lg-9 col&quot;]/div[@class=&quot;row row-cols-lg-3&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;content card&quot;]/div[@class=&quot;card-body&quot;]/p[@class=&quot;card-title&quot;]</value>
+      <webElementGuid>9dd9d193-c56f-4333-840d-ea6342b3e2c8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[3]/div[2]/div/div/div/div[2]/p</value>
+      <webElementGuid>998e859a-0ecf-4e7d-bf8a-72bffa52006c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 500.000,00'])[16]/preceding::p[2]</value>
+      <webElementGuid>1d8ae61d-3311-4578-88ed-4a550d303d8c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div[2]/p</value>
+      <webElementGuid>7f24dc8a-1adc-4699-8ef8-2bd73543dc1d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'jaket japan Baju' or . = 'jaket japan Baju')]</value>
+      <webElementGuid>e3995127-7939-4944-b0fe-7fe20f75245c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

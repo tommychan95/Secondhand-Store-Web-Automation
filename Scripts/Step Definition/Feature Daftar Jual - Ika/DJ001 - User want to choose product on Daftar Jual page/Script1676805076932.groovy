@@ -17,7 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Page_Daftar Jual-Ika/a_Penawaran Produk_nav-link'))
+WebUI.callTestCase(findTestCase('Pages/User Login/Navigate to login page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Daftar Jual-Ika/btn_diminati'))
+WebUI.callTestCase(findTestCase('Pages/User Login/Verify Content'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Page_Login/login_input_email'), 'ikatriyuli@gmail.com')
+
+WebUI.setText(findTestObject('Page_Login/login_input_password'), 'kaminka13')
+
+WebUI.callTestCase(findTestCase('Pages/User Login/Click Button Login'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Daftar Jual - Ika/Click navigate daftar jual'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Choose product - Ika/Verify Success Choose Product'), [:], FailureHandling.STOP_ON_FAILURE)
 

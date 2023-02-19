@@ -45,30 +45,34 @@ import cucumber.api.java.en.When
 
 
 class Daftar_Jual {
-	
-	@Given("User open browser secondhand website")
-	public void user_open_browser_secondhand_website() {
-		WebUI.openBrowser('secondhand-store.herokuapp.com/login')
-		WebUI.maximizeWindow()
+
+	@Given("Useer navigate to Login page")
+	public void sellers_navigate_to_Login_page() {
+		WebUI.callTestCase(findTestCase('Pages/User Login/Navigate to login page'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@When("User login accounts")
-	public void user_login_accounts() {
-		WebUI.callTestCase(findTestCase('Pages/User Login/Navigate to login page'), [:], FailureHandling.STOP_ON_FAILURE)
-		WebUI.setText(findTestObject('Page_Login/login_input_email'), 'ikatriyuliyanti@gmail.com')
-		WebUI.setText(findTestObject('Page_Login/login_input_password'), 'kaminka13')
+	@When("Useer input username {string}")
+	public void sellers_input_username(String Email) {
+		WebUI.setText(findTestObject('Page_Login/login_input_email'), Email)
+	}
+
+	@When("Useer input passwords {string}")
+	public void sellers_input_passwords(String Password) {
+		WebUI.setText(findTestObject('Page_Login/login_input_password'), Password)
+	}
+
+	@When("Useer click button Login")
+	public void sellers_click_button_Login() {
 		WebUI.callTestCase(findTestCase('Pages/User Login/Click Button Login'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@When("User navigate to Daftar Jual page")
-	public void user_navigate_to_Daftar_Jual_page() {
+	@When("Useer click Navigate to Daftar Jual Produk")
+	public void useer_click_Navigate_To_Daftar_Jual_Produk() {
 		WebUI.callTestCase(findTestCase('Pages/Daftar Jual - Ika/Click navigate daftar jual'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
-
-	@Then("Product to sell will show up")
-	public void product_to_sell_will_show_up() {
-		WebUI.verifyElementPresent(findTestObject('Page_Accept Offering/card_product2'), 0)
-		WebUI.closeBrowser()
-	}
 	
+	@When("Useer can see the selected product offer")
+	public void useer_can_see_the_selected_product_offer() {
+		WebUI.callTestCase(findTestCase('Pages/Choose product - Ika/Verify Success Choose Product'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
 }

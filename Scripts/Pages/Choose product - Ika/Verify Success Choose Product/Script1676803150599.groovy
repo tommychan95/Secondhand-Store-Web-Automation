@@ -17,21 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.verifyElementVisible(findTestObject('Page_Pilih produk penawaran-Ika/Text_NameProduct'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/User Login/Navigate to login page'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/User Login/Verify Content'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.setText(findTestObject('Page_Login/login_input_email'), 'ikatriyuliyanti@gmail.com')
-
-WebUI.setText(findTestObject('Page_Login/login_input_password'), 'kaminka13')
-
-WebUI.callTestCase(findTestCase('Pages/User Login/Click Button Login'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Daftar Jual - Ika/Click navigate daftar jual'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementPresent(findTestObject('Page_Accept Offering/card_product2'), 0)
-
-WebUI.closeBrowser()
+WebUI.waitForElementVisible(findTestObject('Page_Daftar Jual-Ika/img_product'), 0)
 

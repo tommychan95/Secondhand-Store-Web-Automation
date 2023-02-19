@@ -68,7 +68,6 @@ class Accept_Offering {
 	@When("Sellers click List Product")
 	public void sellers_click_List_Product() {
 		WebUI.click(findTestObject('Page_Pilih produk penawaran-Ika/List_Product'))
-		
 	}
 
 	@When("Sellers click button Diminati")
