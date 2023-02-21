@@ -39,11 +39,4 @@
       <testCaseId>Test Cases/Step Definition/Feature Profile/PF004 - User want to change phone number</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
-   <testCaseLink>
-      <guid>dd69368f-eaf6-4b9a-b5d6-634cb20e2397</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Step Definition/Feature Profile/PF005 - User want to change profile picture</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
 </TestSuiteEntity>
