@@ -11,7 +11,7 @@ Feature: Profile
 	@PF002
   Scenario: User want to change city
     Given User navigate to Profile page
-    When User input city "Jakarta"
+    When User input city "Yogyakarta"
     And User click button submit
     Then Text success show up
 

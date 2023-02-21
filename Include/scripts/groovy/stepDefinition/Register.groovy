@@ -78,5 +78,6 @@ class Register {
 	@Then("Text warning email already used show up")
 	public void text_warning_email_already_used_show_up() {
 		WebUI.getText(findTestObject('Page Register/alert_email_registered'))
+		WebUI.closeBrowser()
 	}
 }

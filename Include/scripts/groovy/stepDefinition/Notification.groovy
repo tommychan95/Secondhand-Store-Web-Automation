@@ -73,6 +73,6 @@ class Notification {
 
 	@Then("Notification details displayed")
 	public void notification_details_displayed() {
-		WebUI.verifyElementVisible(findTestObject('Page_Notification/div_Penawaran Produk'), FailureHandling.STOP_ON_FAILURE)
+		WebUI.verifyElementVisible(findTestObject('Page_Notification/div_Penawaran_Produk'))
 	}
 }

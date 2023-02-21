@@ -1,0 +1,12 @@
+.cache/
+/bin/
+/Libs/
+/.settings/
+/.classpath
+.svn/
+.project
+Profiles/
+Reports/
+console.properties
+secondhand-store-website-automation-kelompok-3.prj
+settings/

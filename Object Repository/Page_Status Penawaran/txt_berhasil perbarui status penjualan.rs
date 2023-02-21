@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_berhasil perbarui status penjualan</name>
+   <tag></tag>
+   <elementGuidId>922a487f-0b3f-422d-80c0-7238bdb2d192</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.fade.modal.show</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Hubungi di'])[1]/following::div[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>06ff67fc-ee2e-47da-9a82-d8d961e47328</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>dialog</value>
+      <webElementGuid>697af8aa-dc29-49e5-991c-394f18ba4d42</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-modal</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>338494d3-8239-4dd8-b1e0-16da62cf9895</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fade modal show</value>
+      <webElementGuid>3aad1417-6a60-459a-847a-f1fd751d56a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>6c0eef3b-0b86-42ad-a8f9-6837e40b1185</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Perbarui status penjualan produkmuBerhasil terjualKamu telah sepakat menjual produk ini kepada pembeliBatalkan transaksiKamu membatalkan transaksi produk ini dengan pembeliKirim</value>
+      <webElementGuid>185ffc6d-aa79-4380-aeff-e9e3abe90998</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;modal-open&quot;]/div[@class=&quot;fade modal show&quot;]</value>
+      <webElementGuid>57c44c22-35a8-4ddd-abda-ceaebcd7963a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hubungi di'])[1]/following::div[4]</value>
+      <webElementGuid>3355dfce-5b2d-456c-8f26-d370c338f438</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[1]/following::div[4]</value>
+      <webElementGuid>d2b54e48-cfc4-40b7-a881-ffaad111f255</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]</value>
+      <webElementGuid>323812d0-3a0e-4f3e-8376-722b9458ab1a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Perbarui status penjualan produkmuBerhasil terjualKamu telah sepakat menjual produk ini kepada pembeliBatalkan transaksiKamu membatalkan transaksi produk ini dengan pembeliKirim' or . = 'Perbarui status penjualan produkmuBerhasil terjualKamu telah sepakat menjual produk ini kepada pembeliBatalkan transaksiKamu membatalkan transaksi produk ini dengan pembeliKirim')]</value>
+      <webElementGuid>02126686-eb4d-4a88-bf6c-2f8d6653aee7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
